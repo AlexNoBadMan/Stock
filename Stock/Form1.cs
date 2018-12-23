@@ -17,13 +17,163 @@ namespace Stock
             InitializeComponent();
         }
 
-        private void товарBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        #region Методы
+        enum ResultClick
         {
-            this.Validate();
-            this.ProductBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.stockDataSet);
-
+            None,
+            Change,
+            Delete,
+            Other
         }
+
+        private ResultClick ResultCellContenClick(DataGridViewCellEventArgs e, DataGridView dataGridView, string message)
+        {
+            if (e.ColumnIndex == dataGridView.ColumnCount - 1)
+            {
+                var deleteDiaolg = MessageBox.Show(message, "Внимание!", MessageBoxButtons.YesNo);
+                if (deleteDiaolg == DialogResult.Yes)
+                {
+                    return ResultClick.Delete;
+                }
+                return ResultClick.None;
+            }
+            if (e.ColumnIndex == dataGridView.ColumnCount - 2)
+            {
+                return ResultClick.Change;
+            }
+            return ResultClick.Other;
+        }
+
+        private void ChangeCursor(DataGridViewCellEventArgs e, DataGridView dataGridView)
+        {
+            dataGridView.Cursor = e.ColumnIndex > dataGridView.ColumnCount - 3 ? Cursors.Hand : Cursors.Default;
+        }
+
+        /*private void RegistrySaveChanges()
+        {
+            Validate();
+            RegistryBindingSource.EndEdit();
+            RegistryTableAdapter.Update(polyDataSet);
+            RegistryViewTableAdapter.Fill(polyDataSet.СписокРегистратуры);
+        }
+
+        private void CardSaveChanges()
+        {
+            Validate();
+            CardBindingSource.EndEdit();
+            CardTableAdapter.Update(polyDataSet);
+            CardViewTableAdapter.Fill(polyDataSet.СхемаЛечения);
+        }
+
+        private void DoctorSaveChanges()
+        {
+            Validate();
+            DoctorBindingSource.EndEdit();
+            DoctorTableAdapter.Update(polyDataSet);
+        }
+
+        private void DiagnosesSaveChanges()
+        {
+            Validate();
+            DiagnosesBindingSource.EndEdit();
+            DiagnosesTableAdapter.Update(polyDataSet);
+        }
+
+        private void SpecialtySaveChanges()
+        {
+            Validate();
+            SpecialtyBindingSource.EndEdit();
+            SpecialtyTableAdapter.Update(polyDataSet);
+        }
+
+        private void SaveChanges(BindingSource bindingSource)
+        {
+            Validate();
+            bindingSource.EndEdit();
+            tableAdapterManager.UpdateAll(polyDataSet);
+        }*/
+
+        public void ChangeDisplayElements(DataGridView dataGrid, Button button, Panel panel, bool show)
+        {
+            if (show)
+            {
+                dataGrid.Visible = true;
+                button.Visible = true;
+                panel.Visible = false;
+            }
+            else
+            {
+                dataGrid.Visible = false;
+                button.Visible = false;
+                panel.Visible = true;
+            }
+        }
+
+        public void EnableDisplayElements(bool enable)
+        {
+            if (enable)
+            {
+                ControlBox = true;
+                ((Control)tabPage2).Enabled = true;
+                ((Control)tabPage3).Enabled = true;
+                ((Control)tabPage4).Enabled = true;
+            }
+            else
+            {
+                ControlBox = false;
+                ((Control)tabPage2).Enabled = false;
+                ((Control)tabPage3).Enabled = false;
+                ((Control)tabPage4).Enabled = false;
+            }
+        }
+
+        private void EnableDisplayElements(DataGridView dataGridView, Button button, Panel panel, bool show)
+        {
+            if (show)
+            {
+                dataGridView.Enabled = true;
+                dataGridView.Height = 608;
+                button.Visible = true;
+                panel.Visible = false;
+            }
+            else
+            {
+                dataGridView.Enabled = false;
+                dataGridView.Height = 460;
+                button.Visible = false;
+                panel.Visible = true;
+            }
+        }
+
+        /*private void ExportInExcel(DataGridView dataGridView)
+        {
+            try
+            {
+                WaitForm waitForm = new WaitForm();
+                waitForm.Show();
+
+                Microsoft.Office.Interop.Excel.Application ExcelApp = new Microsoft.Office.Interop.Excel.Application();
+                ExcelApp.Application.Workbooks.Add(Type.Missing);
+                for (int i = 0; i < dataGridView.ColumnCount - 2; i++)
+                {
+                    ExcelApp.Cells[1, i + 1] = dataGridView.Columns[i].HeaderText;
+
+                    for (int j = 0; j < dataGridView.RowCount; j++)
+                    {
+                        ExcelApp.Cells[j + 2, i + 1] = (dataGridView[i, j].Value).ToString();
+                    }
+                }
+                ExcelApp.Columns.AutoFit();
+                ExcelApp.Visible = true;
+
+                waitForm.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка экспорта: " + ex.Message);
+            }
+        }*/
+        #endregion
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -47,14 +197,6 @@ namespace Stock
             this.ProductTableAdapter.Fill(this.stockDataSet.Товар);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "stockDataSet.Категории_товара". При необходимости она может быть перемещена или удалена.
             this.CategoryTableAdapter.Fill(this.stockDataSet.Категории_товара);
-        }
-
-        private void категории_товараBindingNavigatorSaveItem_Click(object sender, EventArgs e)
-        {
-            this.Validate();
-            this.CategoryBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.stockDataSet);
-
         }
     }
 }
