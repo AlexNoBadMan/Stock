@@ -1,6 +1,6 @@
 ﻿namespace Stock
 {
-    partial class Form1
+    partial class StockForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -67,19 +67,19 @@
             System.Windows.Forms.Label количество_товара_на_начало_месяцаLabel;
             System.Windows.Forms.Label количество_приходLabel;
             System.Windows.Forms.Label количество_расходLabel;
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle57 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle58 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle59 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle60 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle61 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle62 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle63 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle64 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle65 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.ProductGroupBox = new System.Windows.Forms.GroupBox();
@@ -115,21 +115,31 @@
             this.наименование_категорииTextBox = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.DivisionsAddButton = new System.Windows.Forms.Button();
+            this.DivisionsPanel = new System.Windows.Forms.Panel();
+            this.номер_складаTextBox = new System.Windows.Forms.TextBox();
+            this.DivisionsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.наименование_складаTextBox = new System.Windows.Forms.TextBox();
+            this.фИО_кладовщикаTextBox = new System.Windows.Forms.TextBox();
+            this.DivisionsCancelButton = new System.Windows.Forms.Button();
+            this.DivisionsSaveButton = new System.Windows.Forms.Button();
             this.DivisionsDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DivisionsChangeColumn = new System.Windows.Forms.DataGridViewImageColumn();
             this.DivisionsDeleteColumn = new System.Windows.Forms.DataGridViewImageColumn();
-            this.DivisionsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.DivisionsPanel = new System.Windows.Forms.Panel();
-            this.номер_складаTextBox = new System.Windows.Forms.TextBox();
-            this.наименование_складаTextBox = new System.Windows.Forms.TextBox();
-            this.фИО_кладовщикаTextBox = new System.Windows.Forms.TextBox();
-            this.DivisionsCancelButton = new System.Windows.Forms.Button();
-            this.DivisionsSaveButton = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.InvoiceAddButton = new System.Windows.Forms.Button();
+            this.InvoicePanel = new System.Windows.Forms.Panel();
+            this.признак_типа_накладнойComboBox = new System.Windows.Forms.ComboBox();
+            this.InvoiceBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.номер_накладнойTextBox = new System.Windows.Forms.TextBox();
+            this.датаDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.код_организацииComboBox = new System.Windows.Forms.ComboBox();
+            this.OrganizationBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.код_складаComboBox = new System.Windows.Forms.ComboBox();
+            this.InvoiceCancelButton = new System.Windows.Forms.Button();
+            this.InvoiceSaveButton = new System.Windows.Forms.Button();
             this.InvoiceDataGridView = new System.Windows.Forms.DataGridView();
             this.номерНакладнойDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.датаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -138,17 +148,17 @@
             this.кодСкладаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.InvoiceCahngeColoumn = new System.Windows.Forms.DataGridViewImageColumn();
             this.InvoiceDeleteColumn = new System.Windows.Forms.DataGridViewImageColumn();
-            this.InvoiceBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.InvoicePanel = new System.Windows.Forms.Panel();
-            this.номер_накладнойTextBox = new System.Windows.Forms.TextBox();
-            this.датаDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.признак_типа_накладнойTextBox = new System.Windows.Forms.TextBox();
-            this.код_организацииComboBox = new System.Windows.Forms.ComboBox();
-            this.код_складаComboBox = new System.Windows.Forms.ComboBox();
-            this.InvoiceCancelButton = new System.Windows.Forms.Button();
-            this.InvoiceSaveButton = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.MoveProductAddButton = new System.Windows.Forms.Button();
+            this.MoveProductPanel = new System.Windows.Forms.Panel();
+            this.номер_накладнойComboBox = new System.Windows.Forms.ComboBox();
+            this.MoveProductBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.артикул_товараComboBox = new System.Windows.Forms.ComboBox();
+            this.ListProductBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.количество_товараTextBox = new System.Windows.Forms.TextBox();
+            this.ценаTextBox = new System.Windows.Forms.TextBox();
+            this.MoveProductCancelButton = new System.Windows.Forms.Button();
+            this.MoveProductSaveButton = new System.Windows.Forms.Button();
             this.MoveProductDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -157,27 +167,8 @@
             this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MoveProductChangeColumn = new System.Windows.Forms.DataGridViewImageColumn();
             this.MoveProductDeleteColumn = new System.Windows.Forms.DataGridViewImageColumn();
-            this.MoveProductBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.MoveProductPanel = new System.Windows.Forms.Panel();
-            this.номер_накладнойComboBox = new System.Windows.Forms.ComboBox();
-            this.артикул_товараComboBox = new System.Windows.Forms.ComboBox();
-            this.количество_товараTextBox = new System.Windows.Forms.TextBox();
-            this.ценаTextBox = new System.Windows.Forms.TextBox();
-            this.MoveProductCancelButton = new System.Windows.Forms.Button();
-            this.MoveProductSaveButton = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.OrganizationAddButton = new System.Windows.Forms.Button();
-            this.OrganizationDataGridView = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.OrganizationChangeColumn = new System.Windows.Forms.DataGridViewImageColumn();
-            this.OrganizationDeleteColumn = new System.Windows.Forms.DataGridViewImageColumn();
-            this.OrganizationBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.OrganizationPanel = new System.Windows.Forms.Panel();
             this.рНН_организацииTextBox = new System.Windows.Forms.TextBox();
             this.наименованиеTextBox1 = new System.Windows.Forms.TextBox();
@@ -189,18 +180,28 @@
             this.телефонTextBox = new System.Windows.Forms.TextBox();
             this.OrganizationCancelButton = new System.Windows.Forms.Button();
             this.OrganizationSaveButton = new System.Windows.Forms.Button();
+            this.OrganizationDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OrganizationChangeColumn = new System.Windows.Forms.DataGridViewImageColumn();
+            this.OrganizationDeleteColumn = new System.Windows.Forms.DataGridViewImageColumn();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.BankAddButton = new System.Windows.Forms.Button();
-            this.BankDataGridView = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BankChangeColumn = new System.Windows.Forms.DataGridViewImageColumn();
-            this.BankDeleteColumn = new System.Windows.Forms.DataGridViewImageColumn();
             this.BankPanel = new System.Windows.Forms.Panel();
             this.код_банкаTextBox = new System.Windows.Forms.TextBox();
             this.наименованиеTextBox2 = new System.Windows.Forms.TextBox();
             this.BankCancelButton = new System.Windows.Forms.Button();
             this.BankSaveButton = new System.Windows.Forms.Button();
+            this.BankDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BankChangeColumn = new System.Windows.Forms.DataGridViewImageColumn();
+            this.BankDeleteColumn = new System.Windows.Forms.DataGridViewImageColumn();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.TaxAddButton = new System.Windows.Forms.Button();
             this.TaxPanel = new System.Windows.Forms.Panel();
@@ -218,6 +219,13 @@
             this.TaxDeleteColumn = new System.Windows.Forms.DataGridViewImageColumn();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.TaxingAddButton = new System.Windows.Forms.Button();
+            this.TaxingPanel = new System.Windows.Forms.Panel();
+            this.номер_накладнойComboBox1 = new System.Windows.Forms.ComboBox();
+            this.TaxingBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.код_налогаComboBox = new System.Windows.Forms.ComboBox();
+            this.сумма_налогаTextBox = new System.Windows.Forms.TextBox();
+            this.TaxingCancelButton = new System.Windows.Forms.Button();
+            this.TaxingSaveButton = new System.Windows.Forms.Button();
             this.TaxingDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -225,25 +233,26 @@
             this.dataGridViewTextBoxColumn30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TaxingChangeColumn = new System.Windows.Forms.DataGridViewImageColumn();
             this.TaxingDeleteColumn = new System.Windows.Forms.DataGridViewImageColumn();
-            this.TaxingBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.TaxingPanel = new System.Windows.Forms.Panel();
-            this.номер_накладнойComboBox1 = new System.Windows.Forms.ComboBox();
-            this.код_налогаComboBox = new System.Windows.Forms.ComboBox();
-            this.сумма_налогаTextBox = new System.Windows.Forms.TextBox();
-            this.TaxingCancelButton = new System.Windows.Forms.Button();
-            this.TaxingSaveButton = new System.Windows.Forms.Button();
             this.tabPage9 = new System.Windows.Forms.TabPage();
             this.BalanceAddButton = new System.Windows.Forms.Button();
-            this.BalanceDataGridView = new System.Windows.Forms.DataGridView();
-            this.BalanceBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.BalancePanel = new System.Windows.Forms.Panel();
             this.артикул_товараComboBox1 = new System.Windows.Forms.ComboBox();
+            this.BalanceBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.средняя_ценаTextBox = new System.Windows.Forms.TextBox();
             this.количество_товара_на_начало_месяцаTextBox = new System.Windows.Forms.TextBox();
             this.количество_приходTextBox = new System.Windows.Forms.TextBox();
             this.количество_расходTextBox = new System.Windows.Forms.TextBox();
             this.BalanceCancelButton = new System.Windows.Forms.Button();
             this.BalanceSaveButton = new System.Windows.Forms.Button();
+            this.BalanceDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn31 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn32 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn34 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BalanceChangeColumn = new System.Windows.Forms.DataGridViewImageColumn();
+            this.BalanceDeleteColumn = new System.Windows.Forms.DataGridViewImageColumn();
             this.CategoryTableAdapter = new Stock.StockDataSetTableAdapters.Категории_товараTableAdapter();
             this.tableAdapterManager = new Stock.StockDataSetTableAdapters.TableAdapterManager();
             this.BankTableAdapter = new Stock.StockDataSetTableAdapters.БанкTableAdapter();
@@ -256,17 +265,30 @@
             this.TaxingTableAdapter = new Stock.StockDataSetTableAdapters.ТаксировкаTableAdapter();
             this.ProductTableAdapter = new Stock.StockDataSetTableAdapters.ТоварTableAdapter();
             this.MainMenuStrip = new System.Windows.Forms.MenuStrip();
-            this.запросыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.отчетыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataGridViewTextBoxColumn31 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn32 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn34 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BalanceChangeColumn = new System.Windows.Forms.DataGridViewImageColumn();
-            this.BalanceDeleteColumn = new System.Windows.Forms.DataGridViewImageColumn();
-            this.ListProductBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.ReportAndQueryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.запросToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ListProductsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.WealthToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ShippedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TOOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ListOrganizationsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.отчетToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TrafficReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.BalanceReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.WaybillReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ExportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.CategoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.DivisionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.InvoiceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MoveProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.OrganisationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.BankToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TaxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TaxingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.BalanceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.HelpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.AboutProgramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             код_категории_товараLabel = new System.Windows.Forms.Label();
             наименование_категорииLabel = new System.Windows.Forms.Label();
             артикул_товараLabel = new System.Windows.Forms.Label();
@@ -317,39 +339,39 @@
             ((System.ComponentModel.ISupportInitialize)(this.CategoryDataGridView)).BeginInit();
             this.CategoryPanel.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DivisionsDataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DivisionsBindingSource)).BeginInit();
             this.DivisionsPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DivisionsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DivisionsDataGridView)).BeginInit();
             this.tabPage4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.InvoiceDataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.InvoiceBindingSource)).BeginInit();
             this.InvoicePanel.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.MoveProductDataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MoveProductBindingSource)).BeginInit();
-            this.MoveProductPanel.SuspendLayout();
-            this.tabPage5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.OrganizationDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.InvoiceBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.OrganizationBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.InvoiceDataGridView)).BeginInit();
+            this.tabPage3.SuspendLayout();
+            this.MoveProductPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MoveProductBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ListProductBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MoveProductDataGridView)).BeginInit();
+            this.tabPage5.SuspendLayout();
             this.OrganizationPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BankBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OrganizationDataGridView)).BeginInit();
             this.tabPage6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.BankDataGridView)).BeginInit();
             this.BankPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BankDataGridView)).BeginInit();
             this.tabPage7.SuspendLayout();
             this.TaxPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TaxBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TaxDataGridView)).BeginInit();
             this.tabPage8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.TaxingDataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TaxingBindingSource)).BeginInit();
             this.TaxingPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.TaxingBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TaxingDataGridView)).BeginInit();
             this.tabPage9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.BalanceDataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BalanceBindingSource)).BeginInit();
             this.BalancePanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BalanceBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BalanceDataGridView)).BeginInit();
             this.MainMenuStrip.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ListProductBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // код_категории_товараLabel
@@ -762,13 +784,13 @@
             this.ProductDataGridView.AutoGenerateColumns = false;
             this.ProductDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.ProductDataGridView.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle27.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle27.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            dataGridViewCellStyle27.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.ProductDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle53.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle53.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            dataGridViewCellStyle53.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle53.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle53.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.ProductDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle53;
             this.ProductDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ProductDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn3,
@@ -781,13 +803,13 @@
             this.ProductDataGridView.Location = new System.Drawing.Point(3, 16);
             this.ProductDataGridView.Name = "ProductDataGridView";
             this.ProductDataGridView.ReadOnly = true;
-            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle28.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            dataGridViewCellStyle28.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.ProductDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle28;
+            dataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle54.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle54.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            dataGridViewCellStyle54.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle54.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle54.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.ProductDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle54;
             this.ProductDataGridView.RowHeadersVisible = false;
             this.ProductDataGridView.RowTemplate.Height = 26;
             this.ProductDataGridView.Size = new System.Drawing.Size(980, 327);
@@ -977,13 +999,13 @@
             this.CategoryDataGridView.AutoGenerateColumns = false;
             this.CategoryDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.CategoryDataGridView.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle29.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle29.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            dataGridViewCellStyle29.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.CategoryDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle29;
+            dataGridViewCellStyle55.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle55.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle55.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            dataGridViewCellStyle55.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle55.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle55.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.CategoryDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle55;
             this.CategoryDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.CategoryDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -994,13 +1016,13 @@
             this.CategoryDataGridView.Location = new System.Drawing.Point(3, 16);
             this.CategoryDataGridView.Name = "CategoryDataGridView";
             this.CategoryDataGridView.ReadOnly = true;
-            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle30.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            dataGridViewCellStyle30.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.CategoryDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle30;
+            dataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle56.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle56.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            dataGridViewCellStyle56.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle56.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle56.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.CategoryDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle56;
             this.CategoryDataGridView.RowHeadersVisible = false;
             this.CategoryDataGridView.RowTemplate.Height = 26;
             this.CategoryDataGridView.Size = new System.Drawing.Size(980, 204);
@@ -1126,6 +1148,79 @@
             this.DivisionsAddButton.UseVisualStyleBackColor = false;
             this.DivisionsAddButton.Click += new System.EventHandler(this.DivisionsAddButton_Click);
             // 
+            // DivisionsPanel
+            // 
+            this.DivisionsPanel.Controls.Add(номер_складаLabel);
+            this.DivisionsPanel.Controls.Add(this.номер_складаTextBox);
+            this.DivisionsPanel.Controls.Add(наименование_складаLabel);
+            this.DivisionsPanel.Controls.Add(this.наименование_складаTextBox);
+            this.DivisionsPanel.Controls.Add(фИО_кладовщикаLabel);
+            this.DivisionsPanel.Controls.Add(this.фИО_кладовщикаTextBox);
+            this.DivisionsPanel.Controls.Add(this.DivisionsCancelButton);
+            this.DivisionsPanel.Controls.Add(this.DivisionsSaveButton);
+            this.DivisionsPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.DivisionsPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
+            this.DivisionsPanel.Location = new System.Drawing.Point(3, 448);
+            this.DivisionsPanel.Name = "DivisionsPanel";
+            this.DivisionsPanel.Size = new System.Drawing.Size(986, 203);
+            this.DivisionsPanel.TabIndex = 9;
+            this.DivisionsPanel.Visible = false;
+            // 
+            // номер_складаTextBox
+            // 
+            this.номер_складаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.DivisionsBindingSource, "Номер склада", true));
+            this.номер_складаTextBox.Location = new System.Drawing.Point(446, 34);
+            this.номер_складаTextBox.Name = "номер_складаTextBox";
+            this.номер_складаTextBox.Size = new System.Drawing.Size(310, 26);
+            this.номер_складаTextBox.TabIndex = 18;
+            // 
+            // DivisionsBindingSource
+            // 
+            this.DivisionsBindingSource.DataMember = "Подразделения";
+            this.DivisionsBindingSource.DataSource = this.stockDataSet;
+            // 
+            // наименование_складаTextBox
+            // 
+            this.наименование_складаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.DivisionsBindingSource, "Наименование склада", true));
+            this.наименование_складаTextBox.Location = new System.Drawing.Point(446, 66);
+            this.наименование_складаTextBox.Name = "наименование_складаTextBox";
+            this.наименование_складаTextBox.Size = new System.Drawing.Size(310, 26);
+            this.наименование_складаTextBox.TabIndex = 20;
+            // 
+            // фИО_кладовщикаTextBox
+            // 
+            this.фИО_кладовщикаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.DivisionsBindingSource, "ФИО кладовщика", true));
+            this.фИО_кладовщикаTextBox.Location = new System.Drawing.Point(446, 98);
+            this.фИО_кладовщикаTextBox.Name = "фИО_кладовщикаTextBox";
+            this.фИО_кладовщикаTextBox.Size = new System.Drawing.Size(310, 26);
+            this.фИО_кладовщикаTextBox.TabIndex = 22;
+            // 
+            // DivisionsCancelButton
+            // 
+            this.DivisionsCancelButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DivisionsCancelButton.Image = global::Stock.Properties.Resources.delete_icon;
+            this.DivisionsCancelButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.DivisionsCancelButton.Location = new System.Drawing.Point(518, 147);
+            this.DivisionsCancelButton.Name = "DivisionsCancelButton";
+            this.DivisionsCancelButton.Size = new System.Drawing.Size(165, 32);
+            this.DivisionsCancelButton.TabIndex = 17;
+            this.DivisionsCancelButton.Text = "Отмена";
+            this.DivisionsCancelButton.UseVisualStyleBackColor = true;
+            this.DivisionsCancelButton.Click += new System.EventHandler(this.DivisionsCancelButton_Click);
+            // 
+            // DivisionsSaveButton
+            // 
+            this.DivisionsSaveButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DivisionsSaveButton.Image = global::Stock.Properties.Resources.Save_icon;
+            this.DivisionsSaveButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.DivisionsSaveButton.Location = new System.Drawing.Point(301, 147);
+            this.DivisionsSaveButton.Name = "DivisionsSaveButton";
+            this.DivisionsSaveButton.Size = new System.Drawing.Size(165, 32);
+            this.DivisionsSaveButton.TabIndex = 16;
+            this.DivisionsSaveButton.Text = "Сохранить";
+            this.DivisionsSaveButton.UseVisualStyleBackColor = true;
+            this.DivisionsSaveButton.Click += new System.EventHandler(this.DivisionsSaveButton_Click);
+            // 
             // DivisionsDataGridView
             // 
             this.DivisionsDataGridView.AllowUserToAddRows = false;
@@ -1135,13 +1230,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.DivisionsDataGridView.AutoGenerateColumns = false;
             this.DivisionsDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle31.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle31.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            dataGridViewCellStyle31.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle31.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle31.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.DivisionsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle31;
+            dataGridViewCellStyle57.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle57.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle57.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            dataGridViewCellStyle57.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle57.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle57.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.DivisionsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle57;
             this.DivisionsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DivisionsDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn7,
@@ -1200,79 +1295,6 @@
             this.DivisionsDeleteColumn.Name = "DivisionsDeleteColumn";
             this.DivisionsDeleteColumn.ReadOnly = true;
             // 
-            // DivisionsBindingSource
-            // 
-            this.DivisionsBindingSource.DataMember = "Подразделения";
-            this.DivisionsBindingSource.DataSource = this.stockDataSet;
-            // 
-            // DivisionsPanel
-            // 
-            this.DivisionsPanel.Controls.Add(номер_складаLabel);
-            this.DivisionsPanel.Controls.Add(this.номер_складаTextBox);
-            this.DivisionsPanel.Controls.Add(наименование_складаLabel);
-            this.DivisionsPanel.Controls.Add(this.наименование_складаTextBox);
-            this.DivisionsPanel.Controls.Add(фИО_кладовщикаLabel);
-            this.DivisionsPanel.Controls.Add(this.фИО_кладовщикаTextBox);
-            this.DivisionsPanel.Controls.Add(this.DivisionsCancelButton);
-            this.DivisionsPanel.Controls.Add(this.DivisionsSaveButton);
-            this.DivisionsPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.DivisionsPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.DivisionsPanel.Location = new System.Drawing.Point(3, 448);
-            this.DivisionsPanel.Name = "DivisionsPanel";
-            this.DivisionsPanel.Size = new System.Drawing.Size(986, 203);
-            this.DivisionsPanel.TabIndex = 9;
-            this.DivisionsPanel.Visible = false;
-            // 
-            // номер_складаTextBox
-            // 
-            this.номер_складаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.DivisionsBindingSource, "Номер склада", true));
-            this.номер_складаTextBox.Location = new System.Drawing.Point(446, 34);
-            this.номер_складаTextBox.Name = "номер_складаTextBox";
-            this.номер_складаTextBox.Size = new System.Drawing.Size(310, 26);
-            this.номер_складаTextBox.TabIndex = 18;
-            // 
-            // наименование_складаTextBox
-            // 
-            this.наименование_складаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.DivisionsBindingSource, "Наименование склада", true));
-            this.наименование_складаTextBox.Location = new System.Drawing.Point(446, 66);
-            this.наименование_складаTextBox.Name = "наименование_складаTextBox";
-            this.наименование_складаTextBox.Size = new System.Drawing.Size(310, 26);
-            this.наименование_складаTextBox.TabIndex = 20;
-            // 
-            // фИО_кладовщикаTextBox
-            // 
-            this.фИО_кладовщикаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.DivisionsBindingSource, "ФИО кладовщика", true));
-            this.фИО_кладовщикаTextBox.Location = new System.Drawing.Point(446, 98);
-            this.фИО_кладовщикаTextBox.Name = "фИО_кладовщикаTextBox";
-            this.фИО_кладовщикаTextBox.Size = new System.Drawing.Size(310, 26);
-            this.фИО_кладовщикаTextBox.TabIndex = 22;
-            // 
-            // DivisionsCancelButton
-            // 
-            this.DivisionsCancelButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DivisionsCancelButton.Image = global::Stock.Properties.Resources.delete_icon;
-            this.DivisionsCancelButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.DivisionsCancelButton.Location = new System.Drawing.Point(518, 147);
-            this.DivisionsCancelButton.Name = "DivisionsCancelButton";
-            this.DivisionsCancelButton.Size = new System.Drawing.Size(165, 32);
-            this.DivisionsCancelButton.TabIndex = 17;
-            this.DivisionsCancelButton.Text = "Отмена";
-            this.DivisionsCancelButton.UseVisualStyleBackColor = true;
-            this.DivisionsCancelButton.Click += new System.EventHandler(this.DivisionsCancelButton_Click);
-            // 
-            // DivisionsSaveButton
-            // 
-            this.DivisionsSaveButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DivisionsSaveButton.Image = global::Stock.Properties.Resources.Save_icon;
-            this.DivisionsSaveButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.DivisionsSaveButton.Location = new System.Drawing.Point(301, 147);
-            this.DivisionsSaveButton.Name = "DivisionsSaveButton";
-            this.DivisionsSaveButton.Size = new System.Drawing.Size(165, 32);
-            this.DivisionsSaveButton.TabIndex = 16;
-            this.DivisionsSaveButton.Text = "Сохранить";
-            this.DivisionsSaveButton.UseVisualStyleBackColor = true;
-            this.DivisionsSaveButton.Click += new System.EventHandler(this.DivisionsSaveButton_Click);
-            // 
             // tabPage4
             // 
             this.tabPage4.AutoScroll = true;
@@ -1298,10 +1320,119 @@
             this.InvoiceAddButton.Image = global::Stock.Properties.Resources.add_icon;
             this.InvoiceAddButton.Location = new System.Drawing.Point(3, 620);
             this.InvoiceAddButton.Name = "InvoiceAddButton";
-            this.InvoiceAddButton.Size = new System.Drawing.Size(986, 30);
+            this.InvoiceAddButton.Size = new System.Drawing.Size(983, 34);
             this.InvoiceAddButton.TabIndex = 12;
             this.InvoiceAddButton.UseVisualStyleBackColor = false;
             this.InvoiceAddButton.Click += new System.EventHandler(this.InvoiceAddButton_Click);
+            // 
+            // InvoicePanel
+            // 
+            this.InvoicePanel.Controls.Add(this.признак_типа_накладнойComboBox);
+            this.InvoicePanel.Controls.Add(номер_накладнойLabel);
+            this.InvoicePanel.Controls.Add(this.номер_накладнойTextBox);
+            this.InvoicePanel.Controls.Add(датаLabel);
+            this.InvoicePanel.Controls.Add(this.датаDateTimePicker);
+            this.InvoicePanel.Controls.Add(признак_типа_накладнойLabel);
+            this.InvoicePanel.Controls.Add(код_организацииLabel);
+            this.InvoicePanel.Controls.Add(this.код_организацииComboBox);
+            this.InvoicePanel.Controls.Add(код_складаLabel);
+            this.InvoicePanel.Controls.Add(this.код_складаComboBox);
+            this.InvoicePanel.Controls.Add(this.InvoiceCancelButton);
+            this.InvoicePanel.Controls.Add(this.InvoiceSaveButton);
+            this.InvoicePanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
+            this.InvoicePanel.Location = new System.Drawing.Point(3, 420);
+            this.InvoicePanel.Name = "InvoicePanel";
+            this.InvoicePanel.Size = new System.Drawing.Size(986, 230);
+            this.InvoicePanel.TabIndex = 11;
+            this.InvoicePanel.Visible = false;
+            // 
+            // признак_типа_накладнойComboBox
+            // 
+            this.признак_типа_накладнойComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.InvoiceBindingSource, "Признак типа накладной", true));
+            this.признак_типа_накладнойComboBox.FormattingEnabled = true;
+            this.признак_типа_накладнойComboBox.Items.AddRange(new object[] {
+            "Приходная",
+            "Расходная"});
+            this.признак_типа_накладнойComboBox.Location = new System.Drawing.Point(481, 72);
+            this.признак_типа_накладнойComboBox.Name = "признак_типа_накладнойComboBox";
+            this.признак_типа_накладнойComboBox.Size = new System.Drawing.Size(273, 28);
+            this.признак_типа_накладнойComboBox.TabIndex = 27;
+            // 
+            // InvoiceBindingSource
+            // 
+            this.InvoiceBindingSource.DataMember = "Накладные";
+            this.InvoiceBindingSource.DataSource = this.stockDataSet;
+            // 
+            // номер_накладнойTextBox
+            // 
+            this.номер_накладнойTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.InvoiceBindingSource, "Номер накладной", true));
+            this.номер_накладнойTextBox.Location = new System.Drawing.Point(481, 8);
+            this.номер_накладнойTextBox.Name = "номер_накладнойTextBox";
+            this.номер_накладнойTextBox.Size = new System.Drawing.Size(273, 26);
+            this.номер_накладнойTextBox.TabIndex = 18;
+            // 
+            // датаDateTimePicker
+            // 
+            this.датаDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.InvoiceBindingSource, "Дата", true));
+            this.датаDateTimePicker.Location = new System.Drawing.Point(481, 40);
+            this.датаDateTimePicker.Name = "датаDateTimePicker";
+            this.датаDateTimePicker.Size = new System.Drawing.Size(273, 26);
+            this.датаDateTimePicker.TabIndex = 20;
+            // 
+            // код_организацииComboBox
+            // 
+            this.код_организацииComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.InvoiceBindingSource, "Код организации", true));
+            this.код_организацииComboBox.DataSource = this.OrganizationBindingSource;
+            this.код_организацииComboBox.DisplayMember = "РНН организации";
+            this.код_организацииComboBox.FormattingEnabled = true;
+            this.код_организацииComboBox.Location = new System.Drawing.Point(481, 104);
+            this.код_организацииComboBox.Name = "код_организацииComboBox";
+            this.код_организацииComboBox.Size = new System.Drawing.Size(273, 28);
+            this.код_организацииComboBox.TabIndex = 24;
+            this.код_организацииComboBox.ValueMember = "РНН организации";
+            // 
+            // OrganizationBindingSource
+            // 
+            this.OrganizationBindingSource.DataMember = "Организация";
+            this.OrganizationBindingSource.DataSource = this.stockDataSet;
+            // 
+            // код_складаComboBox
+            // 
+            this.код_складаComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.InvoiceBindingSource, "Код склада", true));
+            this.код_складаComboBox.DataSource = this.DivisionsBindingSource;
+            this.код_складаComboBox.DisplayMember = "Номер склада";
+            this.код_складаComboBox.FormattingEnabled = true;
+            this.код_складаComboBox.Location = new System.Drawing.Point(481, 138);
+            this.код_складаComboBox.Name = "код_складаComboBox";
+            this.код_складаComboBox.Size = new System.Drawing.Size(273, 28);
+            this.код_складаComboBox.TabIndex = 26;
+            this.код_складаComboBox.ValueMember = "Номер склада";
+            // 
+            // InvoiceCancelButton
+            // 
+            this.InvoiceCancelButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InvoiceCancelButton.Image = global::Stock.Properties.Resources.delete_icon;
+            this.InvoiceCancelButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.InvoiceCancelButton.Location = new System.Drawing.Point(520, 185);
+            this.InvoiceCancelButton.Name = "InvoiceCancelButton";
+            this.InvoiceCancelButton.Size = new System.Drawing.Size(165, 32);
+            this.InvoiceCancelButton.TabIndex = 17;
+            this.InvoiceCancelButton.Text = "Отмена";
+            this.InvoiceCancelButton.UseVisualStyleBackColor = true;
+            this.InvoiceCancelButton.Click += new System.EventHandler(this.InvoiceCancelButton_Click);
+            // 
+            // InvoiceSaveButton
+            // 
+            this.InvoiceSaveButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InvoiceSaveButton.Image = global::Stock.Properties.Resources.Save_icon;
+            this.InvoiceSaveButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.InvoiceSaveButton.Location = new System.Drawing.Point(303, 185);
+            this.InvoiceSaveButton.Name = "InvoiceSaveButton";
+            this.InvoiceSaveButton.Size = new System.Drawing.Size(165, 32);
+            this.InvoiceSaveButton.TabIndex = 16;
+            this.InvoiceSaveButton.Text = "Сохранить";
+            this.InvoiceSaveButton.UseVisualStyleBackColor = true;
+            this.InvoiceSaveButton.Click += new System.EventHandler(this.InvoiceSaveButton_Click);
             // 
             // InvoiceDataGridView
             // 
@@ -1309,13 +1440,13 @@
             this.InvoiceDataGridView.AllowUserToDeleteRows = false;
             this.InvoiceDataGridView.AutoGenerateColumns = false;
             this.InvoiceDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle32.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle32.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            dataGridViewCellStyle32.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.InvoiceDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle32;
+            dataGridViewCellStyle58.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle58.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle58.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            dataGridViewCellStyle58.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle58.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle58.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.InvoiceDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle58;
             this.InvoiceDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.InvoiceDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.номерНакладнойDataGridViewTextBoxColumn,
@@ -1392,100 +1523,6 @@
             this.InvoiceDeleteColumn.Name = "InvoiceDeleteColumn";
             this.InvoiceDeleteColumn.ReadOnly = true;
             // 
-            // InvoiceBindingSource
-            // 
-            this.InvoiceBindingSource.DataMember = "Накладные";
-            this.InvoiceBindingSource.DataSource = this.stockDataSet;
-            // 
-            // InvoicePanel
-            // 
-            this.InvoicePanel.Controls.Add(номер_накладнойLabel);
-            this.InvoicePanel.Controls.Add(this.номер_накладнойTextBox);
-            this.InvoicePanel.Controls.Add(датаLabel);
-            this.InvoicePanel.Controls.Add(this.датаDateTimePicker);
-            this.InvoicePanel.Controls.Add(признак_типа_накладнойLabel);
-            this.InvoicePanel.Controls.Add(this.признак_типа_накладнойTextBox);
-            this.InvoicePanel.Controls.Add(код_организацииLabel);
-            this.InvoicePanel.Controls.Add(this.код_организацииComboBox);
-            this.InvoicePanel.Controls.Add(код_складаLabel);
-            this.InvoicePanel.Controls.Add(this.код_складаComboBox);
-            this.InvoicePanel.Controls.Add(this.InvoiceCancelButton);
-            this.InvoicePanel.Controls.Add(this.InvoiceSaveButton);
-            this.InvoicePanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.InvoicePanel.Location = new System.Drawing.Point(3, 421);
-            this.InvoicePanel.Name = "InvoicePanel";
-            this.InvoicePanel.Size = new System.Drawing.Size(986, 230);
-            this.InvoicePanel.TabIndex = 11;
-            this.InvoicePanel.Visible = false;
-            // 
-            // номер_накладнойTextBox
-            // 
-            this.номер_накладнойTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.InvoiceBindingSource, "Номер накладной", true));
-            this.номер_накладнойTextBox.Location = new System.Drawing.Point(481, 8);
-            this.номер_накладнойTextBox.Name = "номер_накладнойTextBox";
-            this.номер_накладнойTextBox.Size = new System.Drawing.Size(273, 26);
-            this.номер_накладнойTextBox.TabIndex = 18;
-            // 
-            // датаDateTimePicker
-            // 
-            this.датаDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.InvoiceBindingSource, "Дата", true));
-            this.датаDateTimePicker.Location = new System.Drawing.Point(481, 40);
-            this.датаDateTimePicker.Name = "датаDateTimePicker";
-            this.датаDateTimePicker.Size = new System.Drawing.Size(273, 26);
-            this.датаDateTimePicker.TabIndex = 20;
-            // 
-            // признак_типа_накладнойTextBox
-            // 
-            this.признак_типа_накладнойTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.InvoiceBindingSource, "Признак типа накладной", true));
-            this.признак_типа_накладнойTextBox.Location = new System.Drawing.Point(481, 72);
-            this.признак_типа_накладнойTextBox.Name = "признак_типа_накладнойTextBox";
-            this.признак_типа_накладнойTextBox.Size = new System.Drawing.Size(273, 26);
-            this.признак_типа_накладнойTextBox.TabIndex = 22;
-            // 
-            // код_организацииComboBox
-            // 
-            this.код_организацииComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.InvoiceBindingSource, "Код организации", true));
-            this.код_организацииComboBox.FormattingEnabled = true;
-            this.код_организацииComboBox.Location = new System.Drawing.Point(481, 104);
-            this.код_организацииComboBox.Name = "код_организацииComboBox";
-            this.код_организацииComboBox.Size = new System.Drawing.Size(273, 28);
-            this.код_организацииComboBox.TabIndex = 24;
-            // 
-            // код_складаComboBox
-            // 
-            this.код_складаComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.InvoiceBindingSource, "Код склада", true));
-            this.код_складаComboBox.FormattingEnabled = true;
-            this.код_складаComboBox.Location = new System.Drawing.Point(481, 138);
-            this.код_складаComboBox.Name = "код_складаComboBox";
-            this.код_складаComboBox.Size = new System.Drawing.Size(273, 28);
-            this.код_складаComboBox.TabIndex = 26;
-            // 
-            // InvoiceCancelButton
-            // 
-            this.InvoiceCancelButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.InvoiceCancelButton.Image = global::Stock.Properties.Resources.delete_icon;
-            this.InvoiceCancelButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.InvoiceCancelButton.Location = new System.Drawing.Point(520, 185);
-            this.InvoiceCancelButton.Name = "InvoiceCancelButton";
-            this.InvoiceCancelButton.Size = new System.Drawing.Size(165, 32);
-            this.InvoiceCancelButton.TabIndex = 17;
-            this.InvoiceCancelButton.Text = "Отмена";
-            this.InvoiceCancelButton.UseVisualStyleBackColor = true;
-            this.InvoiceCancelButton.Click += new System.EventHandler(this.InvoiceCancelButton_Click);
-            // 
-            // InvoiceSaveButton
-            // 
-            this.InvoiceSaveButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.InvoiceSaveButton.Image = global::Stock.Properties.Resources.Save_icon;
-            this.InvoiceSaveButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.InvoiceSaveButton.Location = new System.Drawing.Point(303, 185);
-            this.InvoiceSaveButton.Name = "InvoiceSaveButton";
-            this.InvoiceSaveButton.Size = new System.Drawing.Size(165, 32);
-            this.InvoiceSaveButton.TabIndex = 16;
-            this.InvoiceSaveButton.Text = "Сохранить";
-            this.InvoiceSaveButton.UseVisualStyleBackColor = true;
-            this.InvoiceSaveButton.Click += new System.EventHandler(this.InvoiceSaveButton_Click);
-            // 
             // tabPage3
             // 
             this.tabPage3.AutoScroll = true;
@@ -1516,6 +1553,102 @@
             this.MoveProductAddButton.UseVisualStyleBackColor = false;
             this.MoveProductAddButton.Click += new System.EventHandler(this.MoveProductAddButton_Click);
             // 
+            // MoveProductPanel
+            // 
+            this.MoveProductPanel.Controls.Add(номер_накладнойLabel1);
+            this.MoveProductPanel.Controls.Add(this.номер_накладнойComboBox);
+            this.MoveProductPanel.Controls.Add(артикул_товараLabel1);
+            this.MoveProductPanel.Controls.Add(this.артикул_товараComboBox);
+            this.MoveProductPanel.Controls.Add(количество_товараLabel);
+            this.MoveProductPanel.Controls.Add(this.количество_товараTextBox);
+            this.MoveProductPanel.Controls.Add(ценаLabel);
+            this.MoveProductPanel.Controls.Add(this.ценаTextBox);
+            this.MoveProductPanel.Controls.Add(this.MoveProductCancelButton);
+            this.MoveProductPanel.Controls.Add(this.MoveProductSaveButton);
+            this.MoveProductPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.MoveProductPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
+            this.MoveProductPanel.Location = new System.Drawing.Point(3, 414);
+            this.MoveProductPanel.Name = "MoveProductPanel";
+            this.MoveProductPanel.Size = new System.Drawing.Size(986, 237);
+            this.MoveProductPanel.TabIndex = 11;
+            this.MoveProductPanel.Visible = false;
+            // 
+            // номер_накладнойComboBox
+            // 
+            this.номер_накладнойComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.MoveProductBindingSource, "Номер накладной", true));
+            this.номер_накладнойComboBox.DataSource = this.InvoiceBindingSource;
+            this.номер_накладнойComboBox.DisplayMember = "Номер накладной";
+            this.номер_накладнойComboBox.FormattingEnabled = true;
+            this.номер_накладнойComboBox.Location = new System.Drawing.Point(459, 27);
+            this.номер_накладнойComboBox.Name = "номер_накладнойComboBox";
+            this.номер_накладнойComboBox.Size = new System.Drawing.Size(269, 28);
+            this.номер_накладнойComboBox.TabIndex = 20;
+            this.номер_накладнойComboBox.ValueMember = "Номер накладной";
+            // 
+            // MoveProductBindingSource
+            // 
+            this.MoveProductBindingSource.DataMember = "Движение товара";
+            this.MoveProductBindingSource.DataSource = this.stockDataSet;
+            // 
+            // артикул_товараComboBox
+            // 
+            this.артикул_товараComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.MoveProductBindingSource, "Артикул товара", true));
+            this.артикул_товараComboBox.DataSource = this.ListProductBindingSource;
+            this.артикул_товараComboBox.DisplayMember = "Артикул товара";
+            this.артикул_товараComboBox.FormattingEnabled = true;
+            this.артикул_товараComboBox.Location = new System.Drawing.Point(459, 61);
+            this.артикул_товараComboBox.Name = "артикул_товараComboBox";
+            this.артикул_товараComboBox.Size = new System.Drawing.Size(269, 28);
+            this.артикул_товараComboBox.TabIndex = 22;
+            this.артикул_товараComboBox.ValueMember = "Артикул товара";
+            // 
+            // ListProductBindingSource
+            // 
+            this.ListProductBindingSource.DataMember = "Товар";
+            this.ListProductBindingSource.DataSource = this.stockDataSet;
+            // 
+            // количество_товараTextBox
+            // 
+            this.количество_товараTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.MoveProductBindingSource, "Количество товара", true));
+            this.количество_товараTextBox.Location = new System.Drawing.Point(459, 95);
+            this.количество_товараTextBox.Name = "количество_товараTextBox";
+            this.количество_товараTextBox.Size = new System.Drawing.Size(269, 26);
+            this.количество_товараTextBox.TabIndex = 24;
+            // 
+            // ценаTextBox
+            // 
+            this.ценаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.MoveProductBindingSource, "Цена", true));
+            this.ценаTextBox.Location = new System.Drawing.Point(459, 127);
+            this.ценаTextBox.Name = "ценаTextBox";
+            this.ценаTextBox.Size = new System.Drawing.Size(269, 26);
+            this.ценаTextBox.TabIndex = 26;
+            // 
+            // MoveProductCancelButton
+            // 
+            this.MoveProductCancelButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.MoveProductCancelButton.Image = global::Stock.Properties.Resources.delete_icon;
+            this.MoveProductCancelButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.MoveProductCancelButton.Location = new System.Drawing.Point(520, 185);
+            this.MoveProductCancelButton.Name = "MoveProductCancelButton";
+            this.MoveProductCancelButton.Size = new System.Drawing.Size(165, 32);
+            this.MoveProductCancelButton.TabIndex = 17;
+            this.MoveProductCancelButton.Text = "Отмена";
+            this.MoveProductCancelButton.UseVisualStyleBackColor = true;
+            this.MoveProductCancelButton.Click += new System.EventHandler(this.MoveProductCancelButton_Click);
+            // 
+            // MoveProductSaveButton
+            // 
+            this.MoveProductSaveButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.MoveProductSaveButton.Image = global::Stock.Properties.Resources.Save_icon;
+            this.MoveProductSaveButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.MoveProductSaveButton.Location = new System.Drawing.Point(303, 185);
+            this.MoveProductSaveButton.Name = "MoveProductSaveButton";
+            this.MoveProductSaveButton.Size = new System.Drawing.Size(165, 32);
+            this.MoveProductSaveButton.TabIndex = 16;
+            this.MoveProductSaveButton.Text = "Сохранить";
+            this.MoveProductSaveButton.UseVisualStyleBackColor = true;
+            this.MoveProductSaveButton.Click += new System.EventHandler(this.MoveProductSaveButton_Click);
+            // 
             // MoveProductDataGridView
             // 
             this.MoveProductDataGridView.AllowUserToAddRows = false;
@@ -1525,13 +1658,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.MoveProductDataGridView.AutoGenerateColumns = false;
             this.MoveProductDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle33.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle33.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            dataGridViewCellStyle33.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle33.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle33.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.MoveProductDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle33;
+            dataGridViewCellStyle59.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle59.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle59.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            dataGridViewCellStyle59.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle59.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle59.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.MoveProductDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle59;
             this.MoveProductDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.MoveProductDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn10,
@@ -1604,97 +1737,6 @@
             this.MoveProductDeleteColumn.Name = "MoveProductDeleteColumn";
             this.MoveProductDeleteColumn.ReadOnly = true;
             // 
-            // MoveProductBindingSource
-            // 
-            this.MoveProductBindingSource.DataMember = "Движение товара";
-            this.MoveProductBindingSource.DataSource = this.stockDataSet;
-            // 
-            // MoveProductPanel
-            // 
-            this.MoveProductPanel.Controls.Add(номер_накладнойLabel1);
-            this.MoveProductPanel.Controls.Add(this.номер_накладнойComboBox);
-            this.MoveProductPanel.Controls.Add(артикул_товараLabel1);
-            this.MoveProductPanel.Controls.Add(this.артикул_товараComboBox);
-            this.MoveProductPanel.Controls.Add(количество_товараLabel);
-            this.MoveProductPanel.Controls.Add(this.количество_товараTextBox);
-            this.MoveProductPanel.Controls.Add(ценаLabel);
-            this.MoveProductPanel.Controls.Add(this.ценаTextBox);
-            this.MoveProductPanel.Controls.Add(this.MoveProductCancelButton);
-            this.MoveProductPanel.Controls.Add(this.MoveProductSaveButton);
-            this.MoveProductPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.MoveProductPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.MoveProductPanel.Location = new System.Drawing.Point(3, 414);
-            this.MoveProductPanel.Name = "MoveProductPanel";
-            this.MoveProductPanel.Size = new System.Drawing.Size(986, 237);
-            this.MoveProductPanel.TabIndex = 11;
-            this.MoveProductPanel.Visible = false;
-            // 
-            // номер_накладнойComboBox
-            // 
-            this.номер_накладнойComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.MoveProductBindingSource, "Номер накладной", true));
-            this.номер_накладнойComboBox.DataSource = this.InvoiceBindingSource;
-            this.номер_накладнойComboBox.DisplayMember = "Номер накладной";
-            this.номер_накладнойComboBox.FormattingEnabled = true;
-            this.номер_накладнойComboBox.Location = new System.Drawing.Point(459, 27);
-            this.номер_накладнойComboBox.Name = "номер_накладнойComboBox";
-            this.номер_накладнойComboBox.Size = new System.Drawing.Size(269, 28);
-            this.номер_накладнойComboBox.TabIndex = 20;
-            this.номер_накладнойComboBox.ValueMember = "Номер накладной";
-            // 
-            // артикул_товараComboBox
-            // 
-            this.артикул_товараComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.MoveProductBindingSource, "Артикул товара", true));
-            this.артикул_товараComboBox.DataSource = this.ListProductBindingSource;
-            this.артикул_товараComboBox.DisplayMember = "Артикул товара";
-            this.артикул_товараComboBox.FormattingEnabled = true;
-            this.артикул_товараComboBox.Location = new System.Drawing.Point(459, 61);
-            this.артикул_товараComboBox.Name = "артикул_товараComboBox";
-            this.артикул_товараComboBox.Size = new System.Drawing.Size(269, 28);
-            this.артикул_товараComboBox.TabIndex = 22;
-            this.артикул_товараComboBox.ValueMember = "Артикул товара";
-            // 
-            // количество_товараTextBox
-            // 
-            this.количество_товараTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.MoveProductBindingSource, "Количество товара", true));
-            this.количество_товараTextBox.Location = new System.Drawing.Point(459, 95);
-            this.количество_товараTextBox.Name = "количество_товараTextBox";
-            this.количество_товараTextBox.Size = new System.Drawing.Size(269, 26);
-            this.количество_товараTextBox.TabIndex = 24;
-            // 
-            // ценаTextBox
-            // 
-            this.ценаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.MoveProductBindingSource, "Цена", true));
-            this.ценаTextBox.Location = new System.Drawing.Point(459, 127);
-            this.ценаTextBox.Name = "ценаTextBox";
-            this.ценаTextBox.Size = new System.Drawing.Size(269, 26);
-            this.ценаTextBox.TabIndex = 26;
-            // 
-            // MoveProductCancelButton
-            // 
-            this.MoveProductCancelButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MoveProductCancelButton.Image = global::Stock.Properties.Resources.delete_icon;
-            this.MoveProductCancelButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.MoveProductCancelButton.Location = new System.Drawing.Point(520, 185);
-            this.MoveProductCancelButton.Name = "MoveProductCancelButton";
-            this.MoveProductCancelButton.Size = new System.Drawing.Size(165, 32);
-            this.MoveProductCancelButton.TabIndex = 17;
-            this.MoveProductCancelButton.Text = "Отмена";
-            this.MoveProductCancelButton.UseVisualStyleBackColor = true;
-            this.MoveProductCancelButton.Click += new System.EventHandler(this.MoveProductCancelButton_Click);
-            // 
-            // MoveProductSaveButton
-            // 
-            this.MoveProductSaveButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MoveProductSaveButton.Image = global::Stock.Properties.Resources.Save_icon;
-            this.MoveProductSaveButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.MoveProductSaveButton.Location = new System.Drawing.Point(303, 185);
-            this.MoveProductSaveButton.Name = "MoveProductSaveButton";
-            this.MoveProductSaveButton.Size = new System.Drawing.Size(165, 32);
-            this.MoveProductSaveButton.TabIndex = 16;
-            this.MoveProductSaveButton.Text = "Сохранить";
-            this.MoveProductSaveButton.UseVisualStyleBackColor = true;
-            this.MoveProductSaveButton.Click += new System.EventHandler(this.MoveProductSaveButton_Click);
-            // 
             // tabPage5
             // 
             this.tabPage5.AutoScroll = true;
@@ -1724,126 +1766,6 @@
             this.OrganizationAddButton.TabIndex = 14;
             this.OrganizationAddButton.UseVisualStyleBackColor = false;
             this.OrganizationAddButton.Click += new System.EventHandler(this.OrganizationAddButton_Click);
-            // 
-            // OrganizationDataGridView
-            // 
-            this.OrganizationDataGridView.AllowUserToAddRows = false;
-            this.OrganizationDataGridView.AllowUserToDeleteRows = false;
-            this.OrganizationDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.OrganizationDataGridView.AutoGenerateColumns = false;
-            this.OrganizationDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle34.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle34.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            dataGridViewCellStyle34.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle34.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle34.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.OrganizationDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle34;
-            this.OrganizationDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.OrganizationDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn15,
-            this.dataGridViewTextBoxColumn16,
-            this.dataGridViewTextBoxColumn17,
-            this.dataGridViewTextBoxColumn18,
-            this.dataGridViewTextBoxColumn19,
-            this.dataGridViewTextBoxColumn20,
-            this.dataGridViewTextBoxColumn21,
-            this.OrganizationChangeColumn,
-            this.OrganizationDeleteColumn});
-            this.OrganizationDataGridView.DataSource = this.OrganizationBindingSource;
-            this.OrganizationDataGridView.Location = new System.Drawing.Point(3, 3);
-            this.OrganizationDataGridView.Name = "OrganizationDataGridView";
-            this.OrganizationDataGridView.ReadOnly = true;
-            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle35.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle35.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            dataGridViewCellStyle35.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.OrganizationDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle35;
-            this.OrganizationDataGridView.RowHeadersVisible = false;
-            this.OrganizationDataGridView.RowTemplate.Height = 26;
-            this.OrganizationDataGridView.Size = new System.Drawing.Size(986, 611);
-            this.OrganizationDataGridView.TabIndex = 0;
-            this.OrganizationDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.OrganizationDataGridView_CellClick);
-            this.OrganizationDataGridView.CellMouseEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.OrganizationDataGridView_CellMouseEnter);
-            // 
-            // dataGridViewTextBoxColumn15
-            // 
-            this.dataGridViewTextBoxColumn15.DataPropertyName = "РНН организации";
-            this.dataGridViewTextBoxColumn15.FillWeight = 32F;
-            this.dataGridViewTextBoxColumn15.HeaderText = "РНН организации";
-            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
-            this.dataGridViewTextBoxColumn15.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn16
-            // 
-            this.dataGridViewTextBoxColumn16.DataPropertyName = "Наименование";
-            this.dataGridViewTextBoxColumn16.FillWeight = 70F;
-            this.dataGridViewTextBoxColumn16.HeaderText = "Наименование";
-            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
-            this.dataGridViewTextBoxColumn16.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn17
-            // 
-            this.dataGridViewTextBoxColumn17.DataPropertyName = "Код банка";
-            this.dataGridViewTextBoxColumn17.FillWeight = 53F;
-            this.dataGridViewTextBoxColumn17.HeaderText = "Код банка";
-            this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
-            this.dataGridViewTextBoxColumn17.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn18
-            // 
-            this.dataGridViewTextBoxColumn18.DataPropertyName = "Лицевой счет организации";
-            this.dataGridViewTextBoxColumn18.HeaderText = "Лицевой счет организации";
-            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
-            this.dataGridViewTextBoxColumn18.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn19
-            // 
-            this.dataGridViewTextBoxColumn19.DataPropertyName = "Адрес";
-            this.dataGridViewTextBoxColumn19.FillWeight = 55F;
-            this.dataGridViewTextBoxColumn19.HeaderText = "Адрес";
-            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
-            this.dataGridViewTextBoxColumn19.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn20
-            // 
-            this.dataGridViewTextBoxColumn20.DataPropertyName = "ФИО руководителя";
-            this.dataGridViewTextBoxColumn20.HeaderText = "ФИО руководителя";
-            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
-            this.dataGridViewTextBoxColumn20.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn21
-            // 
-            this.dataGridViewTextBoxColumn21.DataPropertyName = "Телефон";
-            this.dataGridViewTextBoxColumn21.FillWeight = 50F;
-            this.dataGridViewTextBoxColumn21.HeaderText = "Телефон";
-            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
-            this.dataGridViewTextBoxColumn21.ReadOnly = true;
-            // 
-            // OrganizationChangeColumn
-            // 
-            this.OrganizationChangeColumn.FillWeight = 17F;
-            this.OrganizationChangeColumn.HeaderText = "Редактировать";
-            this.OrganizationChangeColumn.Image = global::Stock.Properties.Resources.edit_icon;
-            this.OrganizationChangeColumn.Name = "OrganizationChangeColumn";
-            this.OrganizationChangeColumn.ReadOnly = true;
-            // 
-            // OrganizationDeleteColumn
-            // 
-            this.OrganizationDeleteColumn.FillWeight = 17F;
-            this.OrganizationDeleteColumn.HeaderText = "Удалить";
-            this.OrganizationDeleteColumn.Image = global::Stock.Properties.Resources.delete_icon;
-            this.OrganizationDeleteColumn.Name = "OrganizationDeleteColumn";
-            this.OrganizationDeleteColumn.ReadOnly = true;
-            // 
-            // OrganizationBindingSource
-            // 
-            this.OrganizationBindingSource.DataMember = "Организация";
-            this.OrganizationBindingSource.DataSource = this.stockDataSet;
             // 
             // OrganizationPanel
             // 
@@ -1962,6 +1884,121 @@
             this.OrganizationSaveButton.UseVisualStyleBackColor = true;
             this.OrganizationSaveButton.Click += new System.EventHandler(this.OrganizationSaveButton_Click);
             // 
+            // OrganizationDataGridView
+            // 
+            this.OrganizationDataGridView.AllowUserToAddRows = false;
+            this.OrganizationDataGridView.AllowUserToDeleteRows = false;
+            this.OrganizationDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.OrganizationDataGridView.AutoGenerateColumns = false;
+            this.OrganizationDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewCellStyle60.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle60.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle60.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            dataGridViewCellStyle60.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle60.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle60.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.OrganizationDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle60;
+            this.OrganizationDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.OrganizationDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn15,
+            this.dataGridViewTextBoxColumn16,
+            this.dataGridViewTextBoxColumn17,
+            this.dataGridViewTextBoxColumn18,
+            this.dataGridViewTextBoxColumn19,
+            this.dataGridViewTextBoxColumn20,
+            this.dataGridViewTextBoxColumn21,
+            this.OrganizationChangeColumn,
+            this.OrganizationDeleteColumn});
+            this.OrganizationDataGridView.DataSource = this.OrganizationBindingSource;
+            this.OrganizationDataGridView.Location = new System.Drawing.Point(3, 3);
+            this.OrganizationDataGridView.Name = "OrganizationDataGridView";
+            this.OrganizationDataGridView.ReadOnly = true;
+            dataGridViewCellStyle61.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle61.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle61.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            dataGridViewCellStyle61.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle61.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle61.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.OrganizationDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle61;
+            this.OrganizationDataGridView.RowHeadersVisible = false;
+            this.OrganizationDataGridView.RowTemplate.Height = 26;
+            this.OrganizationDataGridView.Size = new System.Drawing.Size(986, 611);
+            this.OrganizationDataGridView.TabIndex = 0;
+            this.OrganizationDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.OrganizationDataGridView_CellClick);
+            this.OrganizationDataGridView.CellMouseEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.OrganizationDataGridView_CellMouseEnter);
+            // 
+            // dataGridViewTextBoxColumn15
+            // 
+            this.dataGridViewTextBoxColumn15.DataPropertyName = "РНН организации";
+            this.dataGridViewTextBoxColumn15.FillWeight = 32F;
+            this.dataGridViewTextBoxColumn15.HeaderText = "РНН организации";
+            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
+            this.dataGridViewTextBoxColumn15.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn16
+            // 
+            this.dataGridViewTextBoxColumn16.DataPropertyName = "Наименование";
+            this.dataGridViewTextBoxColumn16.FillWeight = 70F;
+            this.dataGridViewTextBoxColumn16.HeaderText = "Наименование";
+            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
+            this.dataGridViewTextBoxColumn16.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn17
+            // 
+            this.dataGridViewTextBoxColumn17.DataPropertyName = "Код банка";
+            this.dataGridViewTextBoxColumn17.FillWeight = 53F;
+            this.dataGridViewTextBoxColumn17.HeaderText = "Код банка";
+            this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
+            this.dataGridViewTextBoxColumn17.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn18
+            // 
+            this.dataGridViewTextBoxColumn18.DataPropertyName = "Лицевой счет организации";
+            this.dataGridViewTextBoxColumn18.HeaderText = "Лицевой счет организации";
+            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
+            this.dataGridViewTextBoxColumn18.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn19
+            // 
+            this.dataGridViewTextBoxColumn19.DataPropertyName = "Адрес";
+            this.dataGridViewTextBoxColumn19.FillWeight = 55F;
+            this.dataGridViewTextBoxColumn19.HeaderText = "Адрес";
+            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
+            this.dataGridViewTextBoxColumn19.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn20
+            // 
+            this.dataGridViewTextBoxColumn20.DataPropertyName = "ФИО руководителя";
+            this.dataGridViewTextBoxColumn20.HeaderText = "ФИО руководителя";
+            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
+            this.dataGridViewTextBoxColumn20.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn21
+            // 
+            this.dataGridViewTextBoxColumn21.DataPropertyName = "Телефон";
+            this.dataGridViewTextBoxColumn21.FillWeight = 50F;
+            this.dataGridViewTextBoxColumn21.HeaderText = "Телефон";
+            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
+            this.dataGridViewTextBoxColumn21.ReadOnly = true;
+            // 
+            // OrganizationChangeColumn
+            // 
+            this.OrganizationChangeColumn.FillWeight = 17F;
+            this.OrganizationChangeColumn.HeaderText = "Редактировать";
+            this.OrganizationChangeColumn.Image = global::Stock.Properties.Resources.edit_icon;
+            this.OrganizationChangeColumn.Name = "OrganizationChangeColumn";
+            this.OrganizationChangeColumn.ReadOnly = true;
+            // 
+            // OrganizationDeleteColumn
+            // 
+            this.OrganizationDeleteColumn.FillWeight = 17F;
+            this.OrganizationDeleteColumn.HeaderText = "Удалить";
+            this.OrganizationDeleteColumn.Image = global::Stock.Properties.Resources.delete_icon;
+            this.OrganizationDeleteColumn.Name = "OrganizationDeleteColumn";
+            this.OrganizationDeleteColumn.ReadOnly = true;
+            // 
             // tabPage6
             // 
             this.tabPage6.AutoScroll = true;
@@ -1991,70 +2028,6 @@
             this.BankAddButton.TabIndex = 14;
             this.BankAddButton.UseVisualStyleBackColor = false;
             this.BankAddButton.Click += new System.EventHandler(this.BankAddButton_Click);
-            // 
-            // BankDataGridView
-            // 
-            this.BankDataGridView.AllowUserToAddRows = false;
-            this.BankDataGridView.AllowUserToDeleteRows = false;
-            this.BankDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.BankDataGridView.AutoGenerateColumns = false;
-            this.BankDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle36.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle36.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            dataGridViewCellStyle36.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.BankDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle36;
-            this.BankDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.BankDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn22,
-            this.dataGridViewTextBoxColumn23,
-            this.BankChangeColumn,
-            this.BankDeleteColumn});
-            this.BankDataGridView.DataSource = this.BankBindingSource;
-            this.BankDataGridView.Location = new System.Drawing.Point(3, 3);
-            this.BankDataGridView.Name = "BankDataGridView";
-            this.BankDataGridView.ReadOnly = true;
-            this.BankDataGridView.RowHeadersVisible = false;
-            this.BankDataGridView.RowTemplate.Height = 26;
-            this.BankDataGridView.Size = new System.Drawing.Size(986, 611);
-            this.BankDataGridView.TabIndex = 0;
-            this.BankDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.BankDataGridView_CellClick);
-            this.BankDataGridView.CellMouseEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.BankDataGridView_CellMouseEnter);
-            // 
-            // dataGridViewTextBoxColumn22
-            // 
-            this.dataGridViewTextBoxColumn22.DataPropertyName = "Код банка";
-            this.dataGridViewTextBoxColumn22.FillWeight = 20F;
-            this.dataGridViewTextBoxColumn22.HeaderText = "Код банка";
-            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
-            this.dataGridViewTextBoxColumn22.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn23
-            // 
-            this.dataGridViewTextBoxColumn23.DataPropertyName = "Наименование";
-            this.dataGridViewTextBoxColumn23.HeaderText = "Наименование";
-            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
-            this.dataGridViewTextBoxColumn23.ReadOnly = true;
-            // 
-            // BankChangeColumn
-            // 
-            this.BankChangeColumn.FillWeight = 4.4F;
-            this.BankChangeColumn.HeaderText = "Редактировать";
-            this.BankChangeColumn.Image = global::Stock.Properties.Resources.edit_icon;
-            this.BankChangeColumn.Name = "BankChangeColumn";
-            this.BankChangeColumn.ReadOnly = true;
-            // 
-            // BankDeleteColumn
-            // 
-            this.BankDeleteColumn.FillWeight = 4.5F;
-            this.BankDeleteColumn.HeaderText = "Удалить";
-            this.BankDeleteColumn.Image = global::Stock.Properties.Resources.delete_icon;
-            this.BankDeleteColumn.Name = "BankDeleteColumn";
-            this.BankDeleteColumn.ReadOnly = true;
             // 
             // BankPanel
             // 
@@ -2113,6 +2086,70 @@
             this.BankSaveButton.Text = "Сохранить";
             this.BankSaveButton.UseVisualStyleBackColor = true;
             this.BankSaveButton.Click += new System.EventHandler(this.BankSaveButton_Click);
+            // 
+            // BankDataGridView
+            // 
+            this.BankDataGridView.AllowUserToAddRows = false;
+            this.BankDataGridView.AllowUserToDeleteRows = false;
+            this.BankDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.BankDataGridView.AutoGenerateColumns = false;
+            this.BankDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewCellStyle62.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle62.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle62.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            dataGridViewCellStyle62.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle62.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle62.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.BankDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle62;
+            this.BankDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.BankDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn22,
+            this.dataGridViewTextBoxColumn23,
+            this.BankChangeColumn,
+            this.BankDeleteColumn});
+            this.BankDataGridView.DataSource = this.BankBindingSource;
+            this.BankDataGridView.Location = new System.Drawing.Point(3, 3);
+            this.BankDataGridView.Name = "BankDataGridView";
+            this.BankDataGridView.ReadOnly = true;
+            this.BankDataGridView.RowHeadersVisible = false;
+            this.BankDataGridView.RowTemplate.Height = 26;
+            this.BankDataGridView.Size = new System.Drawing.Size(986, 611);
+            this.BankDataGridView.TabIndex = 0;
+            this.BankDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.BankDataGridView_CellClick);
+            this.BankDataGridView.CellMouseEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.BankDataGridView_CellMouseEnter);
+            // 
+            // dataGridViewTextBoxColumn22
+            // 
+            this.dataGridViewTextBoxColumn22.DataPropertyName = "Код банка";
+            this.dataGridViewTextBoxColumn22.FillWeight = 20F;
+            this.dataGridViewTextBoxColumn22.HeaderText = "Код банка";
+            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
+            this.dataGridViewTextBoxColumn22.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn23
+            // 
+            this.dataGridViewTextBoxColumn23.DataPropertyName = "Наименование";
+            this.dataGridViewTextBoxColumn23.HeaderText = "Наименование";
+            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
+            this.dataGridViewTextBoxColumn23.ReadOnly = true;
+            // 
+            // BankChangeColumn
+            // 
+            this.BankChangeColumn.FillWeight = 4.4F;
+            this.BankChangeColumn.HeaderText = "Редактировать";
+            this.BankChangeColumn.Image = global::Stock.Properties.Resources.edit_icon;
+            this.BankChangeColumn.Name = "BankChangeColumn";
+            this.BankChangeColumn.ReadOnly = true;
+            // 
+            // BankDeleteColumn
+            // 
+            this.BankDeleteColumn.FillWeight = 4.5F;
+            this.BankDeleteColumn.HeaderText = "Удалить";
+            this.BankDeleteColumn.Image = global::Stock.Properties.Resources.delete_icon;
+            this.BankDeleteColumn.Name = "BankDeleteColumn";
+            this.BankDeleteColumn.ReadOnly = true;
             // 
             // tabPage7
             // 
@@ -2226,13 +2263,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TaxDataGridView.AutoGenerateColumns = false;
             this.TaxDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle37.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle37.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            dataGridViewCellStyle37.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle37.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle37.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.TaxDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle37;
+            dataGridViewCellStyle63.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle63.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle63.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            dataGridViewCellStyle63.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle63.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle63.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.TaxDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle63;
             this.TaxDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.TaxDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn24,
@@ -2321,6 +2358,87 @@
             this.TaxingAddButton.UseVisualStyleBackColor = false;
             this.TaxingAddButton.Click += new System.EventHandler(this.TaxingAddButton_Click);
             // 
+            // TaxingPanel
+            // 
+            this.TaxingPanel.Controls.Add(номер_накладнойLabel2);
+            this.TaxingPanel.Controls.Add(this.номер_накладнойComboBox1);
+            this.TaxingPanel.Controls.Add(код_налогаLabel1);
+            this.TaxingPanel.Controls.Add(this.код_налогаComboBox);
+            this.TaxingPanel.Controls.Add(сумма_налогаLabel);
+            this.TaxingPanel.Controls.Add(this.сумма_налогаTextBox);
+            this.TaxingPanel.Controls.Add(this.TaxingCancelButton);
+            this.TaxingPanel.Controls.Add(this.TaxingSaveButton);
+            this.TaxingPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.TaxingPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
+            this.TaxingPanel.Location = new System.Drawing.Point(3, 414);
+            this.TaxingPanel.Name = "TaxingPanel";
+            this.TaxingPanel.Size = new System.Drawing.Size(986, 237);
+            this.TaxingPanel.TabIndex = 17;
+            this.TaxingPanel.Visible = false;
+            // 
+            // номер_накладнойComboBox1
+            // 
+            this.номер_накладнойComboBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.TaxingBindingSource, "Номер накладной", true));
+            this.номер_накладнойComboBox1.DataSource = this.InvoiceBindingSource;
+            this.номер_накладнойComboBox1.DisplayMember = "Номер накладной";
+            this.номер_накладнойComboBox1.FormattingEnabled = true;
+            this.номер_накладнойComboBox1.Location = new System.Drawing.Point(433, 64);
+            this.номер_накладнойComboBox1.Name = "номер_накладнойComboBox1";
+            this.номер_накладнойComboBox1.Size = new System.Drawing.Size(301, 28);
+            this.номер_накладнойComboBox1.TabIndex = 20;
+            this.номер_накладнойComboBox1.ValueMember = "Номер накладной";
+            // 
+            // TaxingBindingSource
+            // 
+            this.TaxingBindingSource.DataMember = "Таксировка";
+            this.TaxingBindingSource.DataSource = this.stockDataSet;
+            // 
+            // код_налогаComboBox
+            // 
+            this.код_налогаComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.TaxingBindingSource, "Код налога", true));
+            this.код_налогаComboBox.DataSource = this.TaxBindingSource;
+            this.код_налогаComboBox.DisplayMember = "Код налога";
+            this.код_налогаComboBox.FormattingEnabled = true;
+            this.код_налогаComboBox.Location = new System.Drawing.Point(433, 98);
+            this.код_налогаComboBox.Name = "код_налогаComboBox";
+            this.код_налогаComboBox.Size = new System.Drawing.Size(301, 28);
+            this.код_налогаComboBox.TabIndex = 22;
+            this.код_налогаComboBox.ValueMember = "Код налога";
+            // 
+            // сумма_налогаTextBox
+            // 
+            this.сумма_налогаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.TaxingBindingSource, "Сумма налога", true));
+            this.сумма_налогаTextBox.Location = new System.Drawing.Point(433, 132);
+            this.сумма_налогаTextBox.Name = "сумма_налогаTextBox";
+            this.сумма_налогаTextBox.Size = new System.Drawing.Size(301, 26);
+            this.сумма_налогаTextBox.TabIndex = 24;
+            // 
+            // TaxingCancelButton
+            // 
+            this.TaxingCancelButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.TaxingCancelButton.Image = global::Stock.Properties.Resources.delete_icon;
+            this.TaxingCancelButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.TaxingCancelButton.Location = new System.Drawing.Point(520, 185);
+            this.TaxingCancelButton.Name = "TaxingCancelButton";
+            this.TaxingCancelButton.Size = new System.Drawing.Size(165, 32);
+            this.TaxingCancelButton.TabIndex = 17;
+            this.TaxingCancelButton.Text = "Отмена";
+            this.TaxingCancelButton.UseVisualStyleBackColor = true;
+            this.TaxingCancelButton.Click += new System.EventHandler(this.TaxingCancelButton_Click);
+            // 
+            // TaxingSaveButton
+            // 
+            this.TaxingSaveButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.TaxingSaveButton.Image = global::Stock.Properties.Resources.Save_icon;
+            this.TaxingSaveButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.TaxingSaveButton.Location = new System.Drawing.Point(303, 185);
+            this.TaxingSaveButton.Name = "TaxingSaveButton";
+            this.TaxingSaveButton.Size = new System.Drawing.Size(165, 32);
+            this.TaxingSaveButton.TabIndex = 16;
+            this.TaxingSaveButton.Text = "Сохранить";
+            this.TaxingSaveButton.UseVisualStyleBackColor = true;
+            this.TaxingSaveButton.Click += new System.EventHandler(this.TaxingSaveButton_Click);
+            // 
             // TaxingDataGridView
             // 
             this.TaxingDataGridView.AllowUserToAddRows = false;
@@ -2330,13 +2448,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TaxingDataGridView.AutoGenerateColumns = false;
             this.TaxingDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle38.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle38.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            dataGridViewCellStyle38.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.TaxingDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle38;
+            dataGridViewCellStyle64.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle64.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle64.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            dataGridViewCellStyle64.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle64.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle64.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.TaxingDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle64;
             this.TaxingDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.TaxingDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn27,
@@ -2401,87 +2519,6 @@
             this.TaxingDeleteColumn.Name = "TaxingDeleteColumn";
             this.TaxingDeleteColumn.ReadOnly = true;
             // 
-            // TaxingBindingSource
-            // 
-            this.TaxingBindingSource.DataMember = "Таксировка";
-            this.TaxingBindingSource.DataSource = this.stockDataSet;
-            // 
-            // TaxingPanel
-            // 
-            this.TaxingPanel.Controls.Add(номер_накладнойLabel2);
-            this.TaxingPanel.Controls.Add(this.номер_накладнойComboBox1);
-            this.TaxingPanel.Controls.Add(код_налогаLabel1);
-            this.TaxingPanel.Controls.Add(this.код_налогаComboBox);
-            this.TaxingPanel.Controls.Add(сумма_налогаLabel);
-            this.TaxingPanel.Controls.Add(this.сумма_налогаTextBox);
-            this.TaxingPanel.Controls.Add(this.TaxingCancelButton);
-            this.TaxingPanel.Controls.Add(this.TaxingSaveButton);
-            this.TaxingPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.TaxingPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.TaxingPanel.Location = new System.Drawing.Point(3, 414);
-            this.TaxingPanel.Name = "TaxingPanel";
-            this.TaxingPanel.Size = new System.Drawing.Size(986, 237);
-            this.TaxingPanel.TabIndex = 17;
-            this.TaxingPanel.Visible = false;
-            // 
-            // номер_накладнойComboBox1
-            // 
-            this.номер_накладнойComboBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.TaxingBindingSource, "Номер накладной", true));
-            this.номер_накладнойComboBox1.DataSource = this.InvoiceBindingSource;
-            this.номер_накладнойComboBox1.DisplayMember = "Номер накладной";
-            this.номер_накладнойComboBox1.FormattingEnabled = true;
-            this.номер_накладнойComboBox1.Location = new System.Drawing.Point(433, 64);
-            this.номер_накладнойComboBox1.Name = "номер_накладнойComboBox1";
-            this.номер_накладнойComboBox1.Size = new System.Drawing.Size(301, 28);
-            this.номер_накладнойComboBox1.TabIndex = 20;
-            this.номер_накладнойComboBox1.ValueMember = "Номер накладной";
-            // 
-            // код_налогаComboBox
-            // 
-            this.код_налогаComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.TaxingBindingSource, "Код налога", true));
-            this.код_налогаComboBox.DataSource = this.TaxBindingSource;
-            this.код_налогаComboBox.DisplayMember = "Код налога";
-            this.код_налогаComboBox.FormattingEnabled = true;
-            this.код_налогаComboBox.Location = new System.Drawing.Point(433, 98);
-            this.код_налогаComboBox.Name = "код_налогаComboBox";
-            this.код_налогаComboBox.Size = new System.Drawing.Size(301, 28);
-            this.код_налогаComboBox.TabIndex = 22;
-            this.код_налогаComboBox.ValueMember = "Код налога";
-            // 
-            // сумма_налогаTextBox
-            // 
-            this.сумма_налогаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.TaxingBindingSource, "Сумма налога", true));
-            this.сумма_налогаTextBox.Location = new System.Drawing.Point(433, 132);
-            this.сумма_налогаTextBox.Name = "сумма_налогаTextBox";
-            this.сумма_налогаTextBox.Size = new System.Drawing.Size(301, 26);
-            this.сумма_налогаTextBox.TabIndex = 24;
-            // 
-            // TaxingCancelButton
-            // 
-            this.TaxingCancelButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.TaxingCancelButton.Image = global::Stock.Properties.Resources.delete_icon;
-            this.TaxingCancelButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.TaxingCancelButton.Location = new System.Drawing.Point(520, 185);
-            this.TaxingCancelButton.Name = "TaxingCancelButton";
-            this.TaxingCancelButton.Size = new System.Drawing.Size(165, 32);
-            this.TaxingCancelButton.TabIndex = 17;
-            this.TaxingCancelButton.Text = "Отмена";
-            this.TaxingCancelButton.UseVisualStyleBackColor = true;
-            this.TaxingCancelButton.Click += new System.EventHandler(this.TaxingCancelButton_Click);
-            // 
-            // TaxingSaveButton
-            // 
-            this.TaxingSaveButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.TaxingSaveButton.Image = global::Stock.Properties.Resources.Save_icon;
-            this.TaxingSaveButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.TaxingSaveButton.Location = new System.Drawing.Point(303, 185);
-            this.TaxingSaveButton.Name = "TaxingSaveButton";
-            this.TaxingSaveButton.Size = new System.Drawing.Size(165, 32);
-            this.TaxingSaveButton.TabIndex = 16;
-            this.TaxingSaveButton.Text = "Сохранить";
-            this.TaxingSaveButton.UseVisualStyleBackColor = true;
-            this.TaxingSaveButton.Click += new System.EventHandler(this.TaxingSaveButton_Click);
-            // 
             // tabPage9
             // 
             this.tabPage9.AutoScroll = true;
@@ -2511,48 +2548,6 @@
             this.BalanceAddButton.TabIndex = 20;
             this.BalanceAddButton.UseVisualStyleBackColor = false;
             this.BalanceAddButton.Click += new System.EventHandler(this.BalanceAddButton_Click);
-            // 
-            // BalanceDataGridView
-            // 
-            this.BalanceDataGridView.AllowUserToAddRows = false;
-            this.BalanceDataGridView.AllowUserToDeleteRows = false;
-            this.BalanceDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.BalanceDataGridView.AutoGenerateColumns = false;
-            this.BalanceDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle39.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle39.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            dataGridViewCellStyle39.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            this.BalanceDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle39;
-            this.BalanceDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.BalanceDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn31,
-            this.dataGridViewTextBoxColumn32,
-            this.dataGridViewTextBoxColumn33,
-            this.dataGridViewTextBoxColumn34,
-            this.dataGridViewTextBoxColumn35,
-            this.dataGridViewTextBoxColumn36,
-            this.BalanceChangeColumn,
-            this.BalanceDeleteColumn});
-            this.BalanceDataGridView.DataSource = this.BalanceBindingSource;
-            this.BalanceDataGridView.Location = new System.Drawing.Point(3, 3);
-            this.BalanceDataGridView.Name = "BalanceDataGridView";
-            this.BalanceDataGridView.ReadOnly = true;
-            this.BalanceDataGridView.RowHeadersVisible = false;
-            this.BalanceDataGridView.RowTemplate.Height = 26;
-            this.BalanceDataGridView.Size = new System.Drawing.Size(986, 611);
-            this.BalanceDataGridView.TabIndex = 0;
-            this.BalanceDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.BalanceDataGridView_CellClick);
-            this.BalanceDataGridView.CellMouseEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.BalanceDataGridView_CellMouseEnter);
-            // 
-            // BalanceBindingSource
-            // 
-            this.BalanceBindingSource.DataMember = "Остатки";
-            this.BalanceBindingSource.DataSource = this.stockDataSet;
             // 
             // BalancePanel
             // 
@@ -2587,6 +2582,11 @@
             this.артикул_товараComboBox1.Size = new System.Drawing.Size(225, 28);
             this.артикул_товараComboBox1.TabIndex = 20;
             this.артикул_товараComboBox1.ValueMember = "Артикул товара";
+            // 
+            // BalanceBindingSource
+            // 
+            this.BalanceBindingSource.DataMember = "Остатки";
+            this.BalanceBindingSource.DataSource = this.stockDataSet;
             // 
             // средняя_ценаTextBox
             // 
@@ -2646,83 +2646,42 @@
             this.BalanceSaveButton.UseVisualStyleBackColor = true;
             this.BalanceSaveButton.Click += new System.EventHandler(this.BalanceSaveButton_Click);
             // 
-            // CategoryTableAdapter
+            // BalanceDataGridView
             // 
-            this.CategoryTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.UpdateOrder = Stock.StockDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            this.tableAdapterManager.БанкTableAdapter = this.BankTableAdapter;
-            this.tableAdapterManager.Движение_товараTableAdapter = this.MoveProductTableAdapter;
-            this.tableAdapterManager.Категории_товараTableAdapter = this.CategoryTableAdapter;
-            this.tableAdapterManager.НакладныеTableAdapter = this.InvoiceTableAdapter;
-            this.tableAdapterManager.НалогиTableAdapter = this.TaxTableAdapter;
-            this.tableAdapterManager.ОрганизацияTableAdapter = this.OrganizationTableAdapter;
-            this.tableAdapterManager.ОстаткиTableAdapter = this.BalanceTableAdapter;
-            this.tableAdapterManager.ПодразделенияTableAdapter = this.DivisionsTableAdapter;
-            this.tableAdapterManager.ТаксировкаTableAdapter = this.TaxingTableAdapter;
-            this.tableAdapterManager.ТоварTableAdapter = this.ProductTableAdapter;
-            // 
-            // BankTableAdapter
-            // 
-            this.BankTableAdapter.ClearBeforeFill = true;
-            // 
-            // MoveProductTableAdapter
-            // 
-            this.MoveProductTableAdapter.ClearBeforeFill = true;
-            // 
-            // InvoiceTableAdapter
-            // 
-            this.InvoiceTableAdapter.ClearBeforeFill = true;
-            // 
-            // TaxTableAdapter
-            // 
-            this.TaxTableAdapter.ClearBeforeFill = true;
-            // 
-            // OrganizationTableAdapter
-            // 
-            this.OrganizationTableAdapter.ClearBeforeFill = true;
-            // 
-            // BalanceTableAdapter
-            // 
-            this.BalanceTableAdapter.ClearBeforeFill = true;
-            // 
-            // DivisionsTableAdapter
-            // 
-            this.DivisionsTableAdapter.ClearBeforeFill = true;
-            // 
-            // TaxingTableAdapter
-            // 
-            this.TaxingTableAdapter.ClearBeforeFill = true;
-            // 
-            // ProductTableAdapter
-            // 
-            this.ProductTableAdapter.ClearBeforeFill = true;
-            // 
-            // MainMenuStrip
-            // 
-            this.MainMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.запросыToolStripMenuItem,
-            this.отчетыToolStripMenuItem});
-            this.MainMenuStrip.Location = new System.Drawing.Point(0, 0);
-            this.MainMenuStrip.Name = "MainMenuStrip";
-            this.MainMenuStrip.Size = new System.Drawing.Size(1008, 24);
-            this.MainMenuStrip.TabIndex = 1;
-            this.MainMenuStrip.Text = "menuStrip1";
-            // 
-            // запросыToolStripMenuItem
-            // 
-            this.запросыToolStripMenuItem.Name = "запросыToolStripMenuItem";
-            this.запросыToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
-            this.запросыToolStripMenuItem.Text = "Запросы";
-            // 
-            // отчетыToolStripMenuItem
-            // 
-            this.отчетыToolStripMenuItem.Name = "отчетыToolStripMenuItem";
-            this.отчетыToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.отчетыToolStripMenuItem.Text = "Отчеты";
+            this.BalanceDataGridView.AllowUserToAddRows = false;
+            this.BalanceDataGridView.AllowUserToDeleteRows = false;
+            this.BalanceDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.BalanceDataGridView.AutoGenerateColumns = false;
+            this.BalanceDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewCellStyle65.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle65.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle65.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            dataGridViewCellStyle65.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle65.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle65.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.BalanceDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle65;
+            this.BalanceDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.BalanceDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn31,
+            this.dataGridViewTextBoxColumn32,
+            this.dataGridViewTextBoxColumn33,
+            this.dataGridViewTextBoxColumn34,
+            this.dataGridViewTextBoxColumn35,
+            this.dataGridViewTextBoxColumn36,
+            this.BalanceChangeColumn,
+            this.BalanceDeleteColumn});
+            this.BalanceDataGridView.DataSource = this.BalanceBindingSource;
+            this.BalanceDataGridView.Location = new System.Drawing.Point(3, 3);
+            this.BalanceDataGridView.Name = "BalanceDataGridView";
+            this.BalanceDataGridView.ReadOnly = true;
+            this.BalanceDataGridView.RowHeadersVisible = false;
+            this.BalanceDataGridView.RowTemplate.Height = 26;
+            this.BalanceDataGridView.Size = new System.Drawing.Size(986, 611);
+            this.BalanceDataGridView.TabIndex = 0;
+            this.BalanceDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.BalanceDataGridView_CellClick);
+            this.BalanceDataGridView.CellMouseEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.BalanceDataGridView_CellMouseEnter);
             // 
             // dataGridViewTextBoxColumn31
             // 
@@ -2783,20 +2742,275 @@
             this.BalanceDeleteColumn.Name = "BalanceDeleteColumn";
             this.BalanceDeleteColumn.ReadOnly = true;
             // 
-            // ListProductBindingSource
+            // CategoryTableAdapter
             // 
-            this.ListProductBindingSource.DataMember = "Товар";
-            this.ListProductBindingSource.DataSource = this.stockDataSet;
+            this.CategoryTableAdapter.ClearBeforeFill = true;
             // 
-            // Form1
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.UpdateOrder = Stock.StockDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            this.tableAdapterManager.БанкTableAdapter = this.BankTableAdapter;
+            this.tableAdapterManager.Движение_товараTableAdapter = this.MoveProductTableAdapter;
+            this.tableAdapterManager.Категории_товараTableAdapter = this.CategoryTableAdapter;
+            this.tableAdapterManager.НакладныеTableAdapter = this.InvoiceTableAdapter;
+            this.tableAdapterManager.НалогиTableAdapter = this.TaxTableAdapter;
+            this.tableAdapterManager.ОрганизацияTableAdapter = this.OrganizationTableAdapter;
+            this.tableAdapterManager.ОстаткиTableAdapter = this.BalanceTableAdapter;
+            this.tableAdapterManager.ПодразделенияTableAdapter = this.DivisionsTableAdapter;
+            this.tableAdapterManager.ТаксировкаTableAdapter = this.TaxingTableAdapter;
+            this.tableAdapterManager.ТоварTableAdapter = this.ProductTableAdapter;
+            // 
+            // BankTableAdapter
+            // 
+            this.BankTableAdapter.ClearBeforeFill = true;
+            // 
+            // MoveProductTableAdapter
+            // 
+            this.MoveProductTableAdapter.ClearBeforeFill = true;
+            // 
+            // InvoiceTableAdapter
+            // 
+            this.InvoiceTableAdapter.ClearBeforeFill = true;
+            // 
+            // TaxTableAdapter
+            // 
+            this.TaxTableAdapter.ClearBeforeFill = true;
+            // 
+            // OrganizationTableAdapter
+            // 
+            this.OrganizationTableAdapter.ClearBeforeFill = true;
+            // 
+            // BalanceTableAdapter
+            // 
+            this.BalanceTableAdapter.ClearBeforeFill = true;
+            // 
+            // DivisionsTableAdapter
+            // 
+            this.DivisionsTableAdapter.ClearBeforeFill = true;
+            // 
+            // TaxingTableAdapter
+            // 
+            this.TaxingTableAdapter.ClearBeforeFill = true;
+            // 
+            // ProductTableAdapter
+            // 
+            this.ProductTableAdapter.ClearBeforeFill = true;
+            // 
+            // MainMenuStrip
+            // 
+            this.MainMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ReportAndQueryToolStripMenuItem,
+            this.ExportToolStripMenuItem,
+            this.HelpToolStripMenuItem});
+            this.MainMenuStrip.Location = new System.Drawing.Point(0, 0);
+            this.MainMenuStrip.Name = "MainMenuStrip";
+            this.MainMenuStrip.Size = new System.Drawing.Size(1008, 24);
+            this.MainMenuStrip.TabIndex = 1;
+            this.MainMenuStrip.Text = "menuStrip1";
+            // 
+            // ReportAndQueryToolStripMenuItem
+            // 
+            this.ReportAndQueryToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.запросToolStripMenuItem,
+            this.отчетToolStripMenuItem});
+            this.ReportAndQueryToolStripMenuItem.Name = "ReportAndQueryToolStripMenuItem";
+            this.ReportAndQueryToolStripMenuItem.Size = new System.Drawing.Size(114, 20);
+            this.ReportAndQueryToolStripMenuItem.Text = "Запросы/Отчеты";
+            // 
+            // запросToolStripMenuItem
+            // 
+            this.запросToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ListProductsToolStripMenuItem,
+            this.WealthToolStripMenuItem,
+            this.ShippedToolStripMenuItem,
+            this.TOOToolStripMenuItem,
+            this.ListOrganizationsToolStripMenuItem});
+            this.запросToolStripMenuItem.Name = "запросToolStripMenuItem";
+            this.запросToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.запросToolStripMenuItem.Text = "Запрос";
+            // 
+            // ListProductsToolStripMenuItem
+            // 
+            this.ListProductsToolStripMenuItem.Name = "ListProductsToolStripMenuItem";
+            this.ListProductsToolStripMenuItem.Size = new System.Drawing.Size(765, 22);
+            this.ListProductsToolStripMenuItem.Text = "Перечень товаров «i-ой» категории, имеющихся на складе, стоимость которых колебле" +
+    "тся в интервале от 4000 до 5000 тенге";
+            this.ListProductsToolStripMenuItem.Click += new System.EventHandler(this.ListProductsToolStripMenuItem_Click);
+            // 
+            // WealthToolStripMenuItem
+            // 
+            this.WealthToolStripMenuItem.Name = "WealthToolStripMenuItem";
+            this.WealthToolStripMenuItem.Size = new System.Drawing.Size(765, 22);
+            this.WealthToolStripMenuItem.Text = "Стоимость материальных ценностей, хранящихся на каждом из складов";
+            this.WealthToolStripMenuItem.Click += new System.EventHandler(this.WealthToolStripMenuItem_Click);
+            // 
+            // ShippedToolStripMenuItem
+            // 
+            this.ShippedToolStripMenuItem.Name = "ShippedToolStripMenuItem";
+            this.ShippedToolStripMenuItem.Size = new System.Drawing.Size(765, 22);
+            this.ShippedToolStripMenuItem.Text = "Список товаров, отгруженных с «i-го» склада на «j-ю» дата";
+            this.ShippedToolStripMenuItem.Click += new System.EventHandler(this.ShippedToolStripMenuItem_Click);
+            // 
+            // TOOToolStripMenuItem
+            // 
+            this.TOOToolStripMenuItem.Name = "TOOToolStripMenuItem";
+            this.TOOToolStripMenuItem.Size = new System.Drawing.Size(765, 22);
+            this.TOOToolStripMenuItem.Text = "Список организаций поставивших товары в текущем году в названии которых есть слов" +
+    "о «ТОО»";
+            this.TOOToolStripMenuItem.Click += new System.EventHandler(this.TOOToolStripMenuItem_Click);
+            // 
+            // ListOrganizationsToolStripMenuItem
+            // 
+            this.ListOrganizationsToolStripMenuItem.Name = "ListOrganizationsToolStripMenuItem";
+            this.ListOrganizationsToolStripMenuItem.Size = new System.Drawing.Size(765, 22);
+            this.ListOrganizationsToolStripMenuItem.Text = "Перечень организаций, поставляющих «I-ый» товар";
+            this.ListOrganizationsToolStripMenuItem.Click += new System.EventHandler(this.ListOrganizationsToolStripMenuItem_Click);
+            // 
+            // отчетToolStripMenuItem
+            // 
+            this.отчетToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.TrafficReportToolStripMenuItem,
+            this.BalanceReportToolStripMenuItem,
+            this.WaybillReportToolStripMenuItem});
+            this.отчетToolStripMenuItem.Name = "отчетToolStripMenuItem";
+            this.отчетToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.отчетToolStripMenuItem.Text = "Отчет";
+            // 
+            // TrafficReportToolStripMenuItem
+            // 
+            this.TrafficReportToolStripMenuItem.Name = "TrafficReportToolStripMenuItem";
+            this.TrafficReportToolStripMenuItem.Size = new System.Drawing.Size(585, 22);
+            this.TrafficReportToolStripMenuItem.Text = "Отчет по движению товаров на «I-ом» складе за «j-е» число (подсчитав и стоимость " +
+    "товара)";
+            this.TrafficReportToolStripMenuItem.Click += new System.EventHandler(this.TrafficReportToolStripMenuItem_Click);
+            // 
+            // BalanceReportToolStripMenuItem
+            // 
+            this.BalanceReportToolStripMenuItem.Name = "BalanceReportToolStripMenuItem";
+            this.BalanceReportToolStripMenuItem.Size = new System.Drawing.Size(585, 22);
+            this.BalanceReportToolStripMenuItem.Text = "Отчет остатки товаров на конец месяца и их стоимость по средней цене";
+            this.BalanceReportToolStripMenuItem.Click += new System.EventHandler(this.BalanceReportToolStripMenuItem_Click);
+            // 
+            // WaybillReportToolStripMenuItem
+            // 
+            this.WaybillReportToolStripMenuItem.Name = "WaybillReportToolStripMenuItem";
+            this.WaybillReportToolStripMenuItem.Size = new System.Drawing.Size(585, 22);
+            this.WaybillReportToolStripMenuItem.Text = "«I-я» накладная";
+            this.WaybillReportToolStripMenuItem.Click += new System.EventHandler(this.WaybillReportToolStripMenuItem_Click);
+            // 
+            // ExportToolStripMenuItem
+            // 
+            this.ExportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ProductToolStripMenuItem,
+            this.CategoryToolStripMenuItem,
+            this.DivisionsToolStripMenuItem,
+            this.InvoiceToolStripMenuItem,
+            this.MoveProductToolStripMenuItem,
+            this.OrganisationToolStripMenuItem,
+            this.BankToolStripMenuItem,
+            this.TaxToolStripMenuItem,
+            this.TaxingToolStripMenuItem,
+            this.BalanceToolStripMenuItem});
+            this.ExportToolStripMenuItem.Name = "ExportToolStripMenuItem";
+            this.ExportToolStripMenuItem.Size = new System.Drawing.Size(108, 20);
+            this.ExportToolStripMenuItem.Text = "Экспортировать";
+            // 
+            // ProductToolStripMenuItem
+            // 
+            this.ProductToolStripMenuItem.Name = "ProductToolStripMenuItem";
+            this.ProductToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ProductToolStripMenuItem.Text = "Товары";
+            this.ProductToolStripMenuItem.Click += new System.EventHandler(this.ProductToolStripMenuItem_Click);
+            // 
+            // CategoryToolStripMenuItem
+            // 
+            this.CategoryToolStripMenuItem.Name = "CategoryToolStripMenuItem";
+            this.CategoryToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.CategoryToolStripMenuItem.Text = "Категория товаров";
+            this.CategoryToolStripMenuItem.Click += new System.EventHandler(this.CategoryToolStripMenuItem_Click);
+            // 
+            // DivisionsToolStripMenuItem
+            // 
+            this.DivisionsToolStripMenuItem.Name = "DivisionsToolStripMenuItem";
+            this.DivisionsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.DivisionsToolStripMenuItem.Text = "Подразделения";
+            this.DivisionsToolStripMenuItem.Click += new System.EventHandler(this.DivisionsToolStripMenuItem_Click);
+            // 
+            // InvoiceToolStripMenuItem
+            // 
+            this.InvoiceToolStripMenuItem.Name = "InvoiceToolStripMenuItem";
+            this.InvoiceToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.InvoiceToolStripMenuItem.Text = "Накладные";
+            this.InvoiceToolStripMenuItem.Click += new System.EventHandler(this.InvoiceToolStripMenuItem_Click);
+            // 
+            // MoveProductToolStripMenuItem
+            // 
+            this.MoveProductToolStripMenuItem.Name = "MoveProductToolStripMenuItem";
+            this.MoveProductToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.MoveProductToolStripMenuItem.Text = "Движения товара";
+            this.MoveProductToolStripMenuItem.Click += new System.EventHandler(this.MoveProductToolStripMenuItem_Click);
+            // 
+            // OrganisationToolStripMenuItem
+            // 
+            this.OrganisationToolStripMenuItem.Name = "OrganisationToolStripMenuItem";
+            this.OrganisationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.OrganisationToolStripMenuItem.Text = "Организация";
+            this.OrganisationToolStripMenuItem.Click += new System.EventHandler(this.OrganisationToolStripMenuItem_Click);
+            // 
+            // BankToolStripMenuItem
+            // 
+            this.BankToolStripMenuItem.Name = "BankToolStripMenuItem";
+            this.BankToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.BankToolStripMenuItem.Text = "Банк";
+            this.BankToolStripMenuItem.Click += new System.EventHandler(this.BankToolStripMenuItem_Click);
+            // 
+            // TaxToolStripMenuItem
+            // 
+            this.TaxToolStripMenuItem.Name = "TaxToolStripMenuItem";
+            this.TaxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.TaxToolStripMenuItem.Text = "Налоги";
+            this.TaxToolStripMenuItem.Click += new System.EventHandler(this.TaxToolStripMenuItem_Click);
+            // 
+            // TaxingToolStripMenuItem
+            // 
+            this.TaxingToolStripMenuItem.Name = "TaxingToolStripMenuItem";
+            this.TaxingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.TaxingToolStripMenuItem.Text = "Таксировка";
+            this.TaxingToolStripMenuItem.Click += new System.EventHandler(this.TaxingToolStripMenuItem_Click);
+            // 
+            // BalanceToolStripMenuItem
+            // 
+            this.BalanceToolStripMenuItem.Name = "BalanceToolStripMenuItem";
+            this.BalanceToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.BalanceToolStripMenuItem.Text = "Остатки";
+            this.BalanceToolStripMenuItem.Click += new System.EventHandler(this.BalanceToolStripMenuItem_Click);
+            // 
+            // HelpToolStripMenuItem
+            // 
+            this.HelpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.AboutProgramToolStripMenuItem});
+            this.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem";
+            this.HelpToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.HelpToolStripMenuItem.Text = "Справка";
+            // 
+            // AboutProgramToolStripMenuItem
+            // 
+            this.AboutProgramToolStripMenuItem.Name = "AboutProgramToolStripMenuItem";
+            this.AboutProgramToolStripMenuItem.Size = new System.Drawing.Size(320, 22);
+            this.AboutProgramToolStripMenuItem.Text = "О программе Подсистема «Складской учет»";
+            this.AboutProgramToolStripMenuItem.Click += new System.EventHandler(this.AboutProgramToolStripMenuItem_Click);
+            // 
+            // StockForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1008, 711);
-            this.Controls.Add(this.tabControl1);
+            this.ClientSize = new System.Drawing.Size(1008, 709);
             this.Controls.Add(this.MainMenuStrip);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Controls.Add(this.tabControl1);
+            this.Name = "StockForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Подсистема «Складской учет»";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -2812,48 +3026,48 @@
             this.CategoryPanel.ResumeLayout(false);
             this.CategoryPanel.PerformLayout();
             this.tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.DivisionsDataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DivisionsBindingSource)).EndInit();
             this.DivisionsPanel.ResumeLayout(false);
             this.DivisionsPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DivisionsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DivisionsDataGridView)).EndInit();
             this.tabPage4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.InvoiceDataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.InvoiceBindingSource)).EndInit();
             this.InvoicePanel.ResumeLayout(false);
             this.InvoicePanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.InvoiceBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OrganizationBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.InvoiceDataGridView)).EndInit();
             this.tabPage3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.MoveProductDataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MoveProductBindingSource)).EndInit();
             this.MoveProductPanel.ResumeLayout(false);
             this.MoveProductPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MoveProductBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ListProductBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MoveProductDataGridView)).EndInit();
             this.tabPage5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.OrganizationDataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.OrganizationBindingSource)).EndInit();
             this.OrganizationPanel.ResumeLayout(false);
             this.OrganizationPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BankBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OrganizationDataGridView)).EndInit();
             this.tabPage6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.BankDataGridView)).EndInit();
             this.BankPanel.ResumeLayout(false);
             this.BankPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BankDataGridView)).EndInit();
             this.tabPage7.ResumeLayout(false);
             this.TaxPanel.ResumeLayout(false);
             this.TaxPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TaxBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TaxDataGridView)).EndInit();
             this.tabPage8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.TaxingDataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TaxingBindingSource)).EndInit();
             this.TaxingPanel.ResumeLayout(false);
             this.TaxingPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.TaxingBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TaxingDataGridView)).EndInit();
             this.tabPage9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.BalanceDataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BalanceBindingSource)).EndInit();
             this.BalancePanel.ResumeLayout(false);
             this.BalancePanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BalanceBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BalanceDataGridView)).EndInit();
             this.MainMenuStrip.ResumeLayout(false);
             this.MainMenuStrip.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ListProductBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2875,8 +3089,7 @@
         private System.Windows.Forms.GroupBox ProductGroupBox;
         private System.Windows.Forms.GroupBox CategoryGroupBox;
         private System.Windows.Forms.MenuStrip MainMenuStrip;
-        private System.Windows.Forms.ToolStripMenuItem запросыToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem отчетыToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ReportAndQueryToolStripMenuItem;
         private StockDataSetTableAdapters.ПодразделенияTableAdapter DivisionsTableAdapter;
         private System.Windows.Forms.BindingSource DivisionsBindingSource;
         private System.Windows.Forms.DataGridView DivisionsDataGridView;
@@ -2935,7 +3148,6 @@
         private System.Windows.Forms.Button InvoiceSaveButton;
         private System.Windows.Forms.TextBox номер_накладнойTextBox;
         private System.Windows.Forms.DateTimePicker датаDateTimePicker;
-        private System.Windows.Forms.TextBox признак_типа_накладнойTextBox;
         private System.Windows.Forms.ComboBox код_организацииComboBox;
         private System.Windows.Forms.ComboBox код_складаComboBox;
         private System.Windows.Forms.Button MoveProductAddButton;
@@ -3048,6 +3260,30 @@
         private System.Windows.Forms.DataGridViewImageColumn BalanceChangeColumn;
         private System.Windows.Forms.DataGridViewImageColumn BalanceDeleteColumn;
         private System.Windows.Forms.BindingSource ListProductBindingSource;
+        private System.Windows.Forms.ComboBox признак_типа_накладнойComboBox;
+        private System.Windows.Forms.ToolStripMenuItem запросToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem отчетToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ExportToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ListProductsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem WealthToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ShippedToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem TOOToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ListOrganizationsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem TrafficReportToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem BalanceReportToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem WaybillReportToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ProductToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem CategoryToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem DivisionsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem InvoiceToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem MoveProductToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem OrganisationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem BankToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem TaxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem TaxingToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem BalanceToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem HelpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem AboutProgramToolStripMenuItem;
     }
 }
 

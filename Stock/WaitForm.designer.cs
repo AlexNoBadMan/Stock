@@ -1,4 +1,4 @@
-﻿namespace Polyclinic
+﻿namespace Stock
 {
     partial class WaitForm
     {

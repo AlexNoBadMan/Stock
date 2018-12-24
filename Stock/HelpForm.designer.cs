@@ -1,4 +1,4 @@
-﻿namespace Polyclinic
+﻿namespace Stock
 {
     partial class HelpForm
     {
@@ -33,16 +33,22 @@
             this.label17 = new System.Windows.Forms.Label();
             this.splitter3 = new System.Windows.Forms.Splitter();
             this.label15 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.splitter2 = new System.Windows.Forms.Splitter();
@@ -50,12 +56,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.HelpPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -133,6 +133,17 @@
             this.label15.Text = "Рисунок №6";
             this.label15.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox6.Image = global::Stock.Properties.Resources.CancelButton;
+            this.pictureBox6.Location = new System.Drawing.Point(0, 825);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(787, 38);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox6.TabIndex = 27;
+            this.pictureBox6.TabStop = false;
+            // 
             // label16
             // 
             this.label16.Dock = System.Windows.Forms.DockStyle.Top;
@@ -154,6 +165,17 @@
             this.label13.TabIndex = 25;
             this.label13.Text = "Рисунок №5";
             this.label13.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox5.Image = global::Stock.Properties.Resources.SaveButton;
+            this.pictureBox5.Location = new System.Drawing.Point(0, 702);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(787, 38);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox5.TabIndex = 24;
+            this.pictureBox5.TabStop = false;
             // 
             // label14
             // 
@@ -177,6 +199,17 @@
             this.label11.Text = "Рисунок №4";
             this.label11.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox4.Image = global::Stock.Properties.Resources.delete_icon;
+            this.pictureBox4.Location = new System.Drawing.Point(0, 579);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(787, 38);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox4.TabIndex = 21;
+            this.pictureBox4.TabStop = false;
+            // 
             // label12
             // 
             this.label12.Dock = System.Windows.Forms.DockStyle.Top;
@@ -198,6 +231,17 @@
             this.label9.TabIndex = 19;
             this.label9.Text = "Рисунок №3";
             this.label9.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox3.Image = global::Stock.Properties.Resources.edit_icon;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 456);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(787, 38);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox3.TabIndex = 18;
+            this.pictureBox3.TabStop = false;
             // 
             // label10
             // 
@@ -221,6 +265,17 @@
             this.label8.Text = "Рисунок №2";
             this.label8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox2.Image = global::Stock.Properties.Resources.AddButton1;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 333);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(787, 38);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 15;
+            this.pictureBox2.TabStop = false;
+            // 
             // label7
             // 
             this.label7.Dock = System.Windows.Forms.DockStyle.Top;
@@ -242,6 +297,17 @@
             this.label6.Text = "Рисунок №1";
             this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 238);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(787, 38);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
             // label5
             // 
             this.label5.Dock = System.Windows.Forms.DockStyle.Top;
@@ -249,8 +315,8 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(787, 59);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Переключение между таблицами осуществляется путём переключения текущей вкладки (Р" +
-    "ис. 1)";
+            this.label5.Text = "Переключение между таблицами осуществляется путём переключения навигационных вкла" +
+    "док (Рис. 1)";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label3
@@ -281,7 +347,9 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(787, 75);
             this.label4.TabIndex = 7;
-            this.label4.Text = resources.GetString("label4.Text");
+            this.label4.Text = "Данная система предназначена для оптимизации складского учёта, хранения и обработ" +
+    "ки накладных, хранения данных об организация, данных об банках, а так же для сле" +
+    "жения движения товаров.";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label2
@@ -313,74 +381,8 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(787, 39);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Подсистема \"Поликлиника\"";
+            this.label1.Text = "Подсистема «Складской учет»";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox6.Image = global::Stock.Properties.Resources.CancelButton;
-            this.pictureBox6.Location = new System.Drawing.Point(0, 825);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(787, 38);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox6.TabIndex = 27;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox5.Image = global::Stock.Properties.Resources.SaveButton;
-            this.pictureBox5.Location = new System.Drawing.Point(0, 702);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(787, 38);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox5.TabIndex = 24;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox4.Image = global::Stock.Properties.Resources.delete_icon;
-            this.pictureBox4.Location = new System.Drawing.Point(0, 579);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(787, 38);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox4.TabIndex = 21;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox3.Image = global::Stock.Properties.Resources.edit_icon;
-            this.pictureBox3.Location = new System.Drawing.Point(0, 456);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(787, 38);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox3.TabIndex = 18;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox2.Image = global::Stock.Properties.Resources.AddButton1;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 333);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(787, 38);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 15;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Image = global::Stock.Properties.Resources.Panel;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 238);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(787, 38);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
             // 
             // HelpForm
             // 
